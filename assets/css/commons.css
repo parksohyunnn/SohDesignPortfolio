@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* body */
+body {
+    /* background-color: var(--backgroundColor); */
+}
+
+/* wrap */
+#wrap {
+    width: 100%;
+}
+
+.container {
+    max-width: 1860px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media(max-width:800px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .line-bot {
+        border: 0;
+    }
+}
+
+/* main */
+#main {
+    min-height: 100vh;
+}
+
+/* footer */
+
+#footer {
+    margin-top: 3rem;
+}

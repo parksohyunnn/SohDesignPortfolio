@@ -1,0 +1,71 @@
+/* 
+|--# - 
+|--header__wrap - 
+|--switch-mode - 
+|--switch-button - 
+*/
+
+#header {
+    margin: 30px 20px;
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.header__wrap .logo {
+    width: 22%;
+}
+
+.header__wrap .header__aside {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__wrap .h__show {
+    display: inline-block;
+    background-color: var(--bgWhite);
+    padding: 5px 20px;
+    border-radius: 31px;
+    transition: all 300ms;
+    color: var(--mainColor);
+    font-weight: 400;
+}
+
+.header__wrap .h__show:hover {
+    background-color: var(--mainColor);
+    color: #fff;
+}
+
+.header__wrap .h__show .allProject {
+    width: 40%;
+    font-family: var(--fontC);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header__wrap .switch-mode {
+    background-color: var(--mainColor);
+    border: 2px solid var(--mainColor);
+    border-radius: 31px;
+    padding: 0;
+    text-align: left;
+    transition: background-color .3s, border-color .3s;
+    width: 51px;
+}
+
+.header__wrap .switch-mode .switch-button {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .04);
+    border-radius: 27px;
+    display: block;
+    height: 24px;
+    margin: auto;
+    transform: translateX(-12px);
+    transition: transform .3s, background-color .3s;
+    width: 24px;
+}
