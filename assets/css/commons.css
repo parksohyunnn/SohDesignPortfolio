@@ -8,6 +8,14 @@ a {
     color: black;
 }
 
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
 /* body */
 body {
     /* background-color: var(--backgroundColor); */
