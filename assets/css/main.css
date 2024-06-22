@@ -1,7 +1,7 @@
 main {
-    margin-left: 360px;
+    margin-left: 330px;
     /* aside의 너비만큼 왼쪽 여백 추가 */
-    width: calc(100% - 360px);
+    width: calc(100% - 330px);
     height: 100vh;
     position: fixed;
     top: 0;

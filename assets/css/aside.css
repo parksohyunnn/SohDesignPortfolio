@@ -1,6 +1,6 @@
 /* aside */
 #aside {
-    width: 360px;
+    width: 330px;
     height: 100vh;
     position: fixed;
     left: 0;
@@ -30,10 +30,11 @@
     text-decoration: none;
     color: var(--black500);
     background-color: var(--bgWhite);
-    padding: 5px 20px;
-    border-radius: 14px;
+    padding: 4px 15px;
+    border-radius: 50px;
     transition: all 0.3s;
     font-family: var(--fontP);
+    font-size: 12.5px;
 }
 
 .project-link:hover {
@@ -44,7 +45,7 @@
     position: relative;
     display: inline-block;
     width: 51px;
-    height: 31px;
+    height: 27px;
 }
 
 .switch input {
@@ -68,8 +69,8 @@
 .slider:before {
     position: absolute;
     content: "";
-    height: 25px;
-    width: 25px;
+    height: 22px;
+    width: 22px;
     left: 3px;
     bottom: 3px;
     background-color: white;
@@ -100,16 +101,17 @@ input:checked+.slider:before {
 }
 
 .date {
-    font-family: var(--fontC);
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: -8px;
+    font-family: var(--fontP);
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 2px;
+    color: var(--black500);
 }
 
 .time {
     font-family: var(--fontC);
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 26px;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 
@@ -185,7 +187,6 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
 
 /* aside__info */
 .aside__info {
-    width: 300px;
     padding: 20px;
     background: var(--bgWhite);
     border-radius: 8px;
@@ -220,7 +221,7 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
     width: 100%;
     display: block;
     height: 47px;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: var(--mainColor);
     overflow: hidden;
 }
@@ -274,7 +275,7 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
     height: auto;
     background-color: var(--bgWhite);
     border-radius: 10px;
-    padding: 15px 16px;
+    padding: 10px 16px;
     box-sizing: border-box;
     margin-bottom: 10px;
 }
@@ -322,10 +323,11 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
     padding: 0;
 }
 
-.pr__wrap .pr__ico img {
+.pr__wrap .pr__ico .pr__png {
     border-radius: 8px;
     margin-right: 18px;
     display: block;
+    width: 50px;
 }
 
 .pr__wrap .pr__Twrap {
@@ -336,7 +338,7 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
 .pr__wrap .pr__Twrap .pr__title {
     font-family: var(--fontC);
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     color: black;
     margin-bottom: 1;
     margin-top: -4px;
@@ -344,7 +346,7 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
 
 .pr__wrap .pr__Twrap .pr__text {
     font-family: var(--fontP);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     color: var(--black600);
 }

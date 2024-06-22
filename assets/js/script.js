@@ -148,3 +148,4 @@ function coordsToI(x, y, w) {
 
 setInterval(loop, 50);
 init();
+
