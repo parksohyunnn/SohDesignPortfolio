@@ -185,6 +185,11 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
     color: var(--white600);
 }
 
+.asideLink {
+    display: inline-block;
+
+}
+
 /* aside__info */
 .aside__info {
     padding: 20px;
