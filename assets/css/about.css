@@ -1,4 +1,5 @@
-.ab_title {
+/* about-title */
+.about-title {
     font-family: var(--fontC);
     font-weight: 700;
     font-size: 120px;
@@ -6,50 +7,423 @@
     margin-top: -40px;
 }
 
-.main__tape {
+/* main-tape */
+.main-tape {
     width: 100%;
     height: 150px;
     background-color: var(--mainColor);
     margin-bottom: 10px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* 넘치는 내용을 숨기도록 설정 */
 }
 
-.main__content1 {
+.about-wrapper {
+    display: flex;
+    animation: scroll 10s linear infinite;
+    /* Make the scrolling smooth by adjusting the duration */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.about-wrapper .about-tape {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0px 35px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    vertical-align: top;
+}
+
+/* main-content */
+.main-content {
     display: flex;
     gap: 10px;
 }
 
-.main__content1-1 {
+.profile-picture {
     width: 40%;
-    height: 520px;
+    height: 540px;
     background-color: var(--black100);
     margin-bottom: 10px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.main__content1-2 {
+.profile-picture .profile {
+    width: 75%;
+}
+
+.content-wrap {
     width: 60%;
     height: 520px;
     margin-bottom: 10px;
     border-radius: 10px;
-    gap: 10px;
+}
+
+/* education */
+.education-section {
+    width: 100%;
+    height: 30%;
+    background-color: var(--black200);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px 70px;
+    box-sizing: border-box;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.main__content1-2-1 {
-    width: 20%;
-    height: inherit;
-    background-color: var(--black200);
+.eduwrap {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.eduTwrap {
+    display: flex;
+    align-content: center;
+}
+
+.edu-date {
+    font-size: 16px;
+    font-family: var(--fontI);
+    color: #c0a2d2;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.edu-text {
+    font-size: 14px;
+    font-family: var(--fontI);
+    color: var(--white);
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.edu-smalltext {
+    font-size: 12px;
+    font-family: var(--fontI);
+    color: var(--white600);
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+/* career */
+.career-wrap {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.career-title {
+    width: 35%;
+    height: calc(100% + 10px);
+    background-color: var(--mainColor);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.career-text {
+    font-family: var(--fontI);
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.ct {
+    font-family: var(--fontG);
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.career-details-wrap {
+    width: 65%;
+    height: 100%;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
-.main__content1-2-2 {
-    width: 80%;
+/* career-details */
+.career-details {
+    width: 100%;
+    height: 70%;
+    background-color: var(--black300);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 50px 60px;
+    box-sizing: border-box;
+}
+
+.carwrap {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.carTwrap {
+    /* display: flex; */
+    align-content: center;
+}
+
+.car-date {
+    font-size: 16px;
+    font-family: var(--fontI);
+    color: #c0a2d2;
+    font-weight: 400;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.car-text {
+    font-size: 14px;
+    font-family: var(--fontI);
+    color: var(--white);
+    font-weight: 400;
+    margin-right: 20px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.car-smalltext {
+    font-size: 12px;
+    font-family: var(--fontI);
+    color: var(--white600);
+    font-weight: 400;
+    margin-top: 3px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+/* career-tags */
+.career-tags {
+    width: 100%;
+    height: 30%;
+    background-color: var(--black400);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    box-sizing: border-box;
+}
+
+.tag-text {
+    font-size: 14px;
+    font-family: var(--fontI);
+    color: var(--white);
+    font-weight: 400;
+    display: inline-block;
+}
+
+/* skill */
+.skill {
+    width: 100%;
+    height: 290px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Technology */
+.skill .skill-tec {
+    width: 50%;
     height: inherit;
+    background-color: var(--black100);
+    border-radius: 10px;
+    padding: 60px 70px;
+    box-sizing: border-box;
+}
+
+/* .tecTwrap */
+.tecTwrap {
+    display: flex;
+    align-items: center;
+}
+
+.about-logotitle {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.skill-title {
+    color: var(--mainColor);
+    font-family: var(--fontC);
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.technology-text {
+    font-family: var(--fontP);
+    font-size: 13px;
+    font-weight: 400;
+    color: #c0a2d2;
+}
+
+/* tecWrap */
+.tecWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-img {
+    width: 16%;
+    margin-top: 28px;
+}
+
+
+/* Design */
+.skill .skill-des {
+    width: 50%;
+    height: inherit;
+    background-color: var(--black100);
+    border-radius: 10px;
+    padding: 60px 70px;
+    box-sizing: border-box;
+}
+
+.design-text {
+    font-family: var(--fontP);
+    font-size: 13px;
+    font-weight: 400;
+    color: #c0a2d2;
+}
+
+
+/* desWrap */
+.desWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* personal */
+.personal {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.personality {
+    width: 55%;
+    height: 200px;
     background-color: var(--black200);
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.plan {
+    width: 15%;
+    height: 200px;
+    background-color: #c463fda5;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
-.main__content1-2-2-1 {}
+.design {
+    width: 15%;
+    height: 200px;
+    background-color: #c463fdd7;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 
-.main__content1-2-2-2 {}
+.develop {
+    width: 15%;
+    height: 200px;
+    background-color: #C463FD;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* intro */
+.intro {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #e7f73a;
+}
+
+.hello {}
+
+.introWrap {}
+
+.introTittle {}
+
+.introLogo {}
+
+.introText {}
+
+/* contactWrap */
+.contactWrap {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.contact {
+    width: 50%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #6DFF6C;
+}
+
+.follow {
+    width: 25%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #FC70FF;
+}
+
+.blog {
+    width: 25%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #5AB0FF;
+}
+
+/* copyright */
+.copyright {
+    width: 100%;
+    height: 120px;
+    background-color: var(--mainColor);
+    border-radius: 10px;
+}
