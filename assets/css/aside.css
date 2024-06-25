@@ -256,9 +256,7 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
     vertical-align: top;
 }
 
-.aside__info .aside__about {
-    margin-top: 15px;
-}
+.aside__info .aside__about {}
 
 .aside__info .aside__about .aside__text {
     font-family: var(--fontI);
@@ -268,7 +266,7 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     white-space: normal;
 }
 
@@ -328,11 +326,20 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
     padding: 0;
 }
 
+
+
 .pr__wrap .pr__ico .pr__png {
     border-radius: 8px;
     margin-right: 18px;
     display: block;
     width: 50px;
+}
+
+.pr__wrap .pr__ico .pr__ab {
+    border-radius: 8px;
+    margin-right: 18px;
+    display: block;
+    width: 80px;
 }
 
 .pr__wrap .pr__Twrap {
