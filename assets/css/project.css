@@ -387,3 +387,393 @@
 .yeol14 {
     background-image: url('/assets/img/prject4/yeol17.jpg');
 }
+
+.yeolWrap5 {
+    display: flex;
+    width: 100%;
+    height: 37vmax;
+    margin-bottom: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* 자식 요소의 둥근 테두리를 유지하기 위해 */
+}
+
+.yeol15,
+.yeol16 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.yeol15 {
+    flex: 3;
+    /* 60% */
+    background-image: url('/assets/img/prject4/yeol18.jpg');
+}
+
+.yeol16 {
+    flex: 7;
+    /* 40% */
+    background-image: url('/assets/img/prject4/yeol19.jpg');
+}
+
+.yeol17 {
+    width: 100%;
+    height: 53vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject4/yeol20.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.yeol18 {
+    width: 100%;
+    height: 35vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject4/yeol21.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.yeol19 {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject4/yeol22.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.yeolWrap6 {
+    display: flex;
+    width: 100%;
+    height: 28vmax;
+    margin-bottom: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* 자식 요소의 둥근 테두리를 유지하기 위해 */
+}
+
+.yeol20,
+.yeol21 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.yeol20 {
+    flex: 4.5;
+    background-image: url('/assets/img/prject4/yeol23.jpg');
+}
+
+.yeol21 {
+    flex: 5.5;
+    background-image: url('/assets/img/prject4/yeol24.jpg');
+}
+
+.yeol22 {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject4/yeol25.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.yeolWrap6 {
+    display: flex;
+    width: 100%;
+    height: 42vmax;
+    margin-bottom: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.yeol20,
+.yeol21 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.yeol20 {
+    flex: 6.5;
+    background-image: url('/assets/img/prject4/yeol26.jpg');
+}
+
+.yeol21 {
+    flex: 3.5;
+    background-image: url('/assets/img/prject4/yeol27.jpg');
+}
+
+.yeol22 {
+    width: 100%;
+    height: 45vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject4/yeol28.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.yeolWrap7 {
+    display: flex;
+    width: 100%;
+    height: 42vmax;
+    margin-bottom: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* 자식 요소의 둥근 테두리를 유지하기 위해 */
+}
+
+.yeol23,
+.yeol24 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.yeol23 {
+    flex: 4.5;
+    background-image: url('/assets/img/prject4/yeol29.jpg');
+}
+
+.yeol24 {
+    flex: 5.5;
+    background-image: url('/assets/img/prject4/yeol30.jpg');
+}
+
+.yeol25 {
+    width: 100%;
+    height: 45vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject4/yeol31.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* 트리헌드레드 */
+/* 공통 스타일링 */
+.treeWrap1,
+.treeWrap2,
+.treeWrap3,
+.treeWrap4,
+.treeWrap5,
+.treeWrap6,
+.treeWrap7,
+.treeWrap8,
+.treeWrap9,
+.treeWrap10,
+.treeWrap11,
+.treeWrap12,
+.treeWrap13 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    height: 20vmax;
+    /* 각 treeWrap의 높이는 필요에 따라 조정하세요 */
+    margin-bottom: 10px;
+}
+
+.treeWrap11 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.treeWrap1 div,
+.treeWrap2 div,
+.treeWrap3 div,
+.treeWrap4 div,
+.treeWrap5 div,
+.treeWrap6 div,
+.treeWrap7 div,
+.treeWrap8 div,
+.treeWrap9 div,
+.treeWrap10 div,
+.treeWrap11 div,
+.treeWrap12 div,
+.treeWrap13 div,
+.tree1,
+.tree2,
+.tree5,
+.tree6,
+.tree7,
+.tree12,
+.tree25,
+.tree32 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* 단일 이미지 요소 스타일링 */
+.tree1,
+.tree2,
+.tree5,
+.tree6,
+.tree7,
+.tree12,
+.tree25,
+.tree32 {
+    width: 100%;
+    height: 45vmax;
+    /* 필요에 따라 높이를 조정하세요 */
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* 배경 이미지 설정 */
+.tree1 {
+    background-image: url('/assets/img/prject2/tree1.jpg');
+}
+
+.tree2 {
+    background-image: url('/assets/img/prject2/tree2.jpg');
+}
+
+.tree3 {
+    background-image: url('/assets/img/prject2/tree3.jpg');
+}
+
+.tree4 {
+    background-image: url('/assets/img/prject2/tree4.jpg');
+}
+
+.tree5 {
+    background-image: url('/assets/img/prject2/tree5.jpg');
+}
+
+.tree6 {
+    background-image: url('/assets/img/prject2/tree6.jpg');
+}
+
+.tree7 {
+    background-image: url('/assets/img/prject2/tree7.jpg');
+}
+
+.tree8 {
+    background-image: url('/assets/img/prject2/tree8.jpg');
+}
+
+.tree9 {
+    background-image: url('/assets/img/prject2/tree9.jpg');
+}
+
+.tree10 {
+    background-image: url('/assets/img/prject2/tree10.jpg');
+}
+
+.tree11 {
+    background-image: url('/assets/img/prject2/tree11.jpg');
+}
+
+.tree12 {
+    background-image: url('/assets/img/prject2/tree12.jpg');
+}
+
+.tree13 {
+    background-image: url('/assets/img/prject2/tree13.jpg');
+}
+
+.tree14 {
+    background-image: url('/assets/img/prject2/tree14.jpg');
+}
+
+.tree15 {
+    background-image: url('/assets/img/prject2/tree15.jpg');
+}
+
+.tree16 {
+    background-image: url('/assets/img/prject2/tree16.jpg');
+}
+
+.tree17 {
+    background-image: url('/assets/img/prject2/tree17.jpg');
+}
+
+.tree18 {
+    background-image: url('/assets/img/prject2/tree18.jpg');
+}
+
+.tree19 {
+    background-image: url('/assets/img/prject2/tree19.jpg');
+}
+
+.tree20 {
+    background-image: url('/assets/img/prject2/tree20.jpg');
+}
+
+.tree21 {
+    background-image: url('/assets/img/prject2/tree21.jpg');
+}
+
+.tree22 {
+    background-image: url('/assets/img/prject2/tree22.jpg');
+}
+
+.tree23 {
+    background-image: url('/assets/img/prject2/tree23.jpg');
+}
+
+.tree24 {
+    background-image: url('/assets/img/prject2/tree24.jpg');
+}
+
+.tree25 {
+    background-image: url('/assets/img/prject2/tree25.jpg');
+}
+
+.tree26 {
+    background-image: url('/assets/img/prject2/tree26.jpg');
+}
+
+.tree27 {
+    background-image: url('/assets/img/prject2/tree27.jpg');
+}
+
+.tree28 {
+    background-image: url('/assets/img/prject2/tree28.jpg');
+}
+
+.tree29 {
+    background-image: url('/assets/img/prject2/tree29.jpg');
+}
+
+.tree30 {
+    background-image: url('/assets/img/prject2/tree30.jpg');
+}
+
+.tree31 {
+    background-image: url('/assets/img/prject2/tree31.jpg');
+}
+
+.tree32 {
+    background-image: url('/assets/img/prject2/tree32.jpg');
+}
+
+.tree33 {
+    background-image: url('/assets/img/prject2/tree33.jpg');
+}
+
+.tree34 {
+    background-image: url('/assets/img/prject2/tree34.jpg');
+}
+
+.tree35 {
+    background-image: url('/assets/img/prject2/tree35.jpg');
+}
