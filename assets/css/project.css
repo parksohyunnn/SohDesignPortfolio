@@ -568,32 +568,195 @@
 }
 
 /* 트리헌드레드 */
-/* 공통 스타일링 */
-.treeWrap1,
-.treeWrap2,
-.treeWrap3,
-.treeWrap4,
-.treeWrap5,
-.treeWrap6,
-.treeWrap7,
-.treeWrap8,
-.treeWrap9,
-.treeWrap10,
-.treeWrap11,
-.treeWrap12,
-.treeWrap13 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.treeWrap1 {
+    display: flex;
     gap: 10px;
     width: 100%;
     height: 20vmax;
-    /* 각 treeWrap의 높이는 필요에 따라 조정하세요 */
+    margin-bottom: 10px;
+}
+
+.tree3 {
+    flex: 3;
+}
+
+.tree4 {
+    flex: 7;
+}
+
+.treeWrap2 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 30vmax;
+    margin-bottom: 10px;
+}
+
+.tree8 {
+    flex: 6;
+}
+
+.tree9 {
+    flex: 4;
+}
+
+.treeWrap3 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+}
+
+.tree10 {
+    flex: 4.5;
+}
+
+.tree11 {
+    flex: 5.5;
+}
+
+.treeWrap4 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 30vmax;
+    margin-bottom: 10px;
+}
+
+.tree13 {
+    flex: 6.5;
+}
+
+.tree14 {
+    flex: 3.5;
+}
+
+.treeWrap5 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 30vmax;
+    margin-bottom: 10px;
+}
+
+.tree15 {
+    flex: 3;
+}
+
+.tree16 {
+    flex: 7;
+}
+
+.treeWrap6 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+}
+
+.tree17 {
+    flex: 5;
+}
+
+.tree18 {
+    flex: 5;
+}
+
+.treeWrap7 {
+    display: grid;
+    grid-template-columns: 3.33fr 3.33fr 3.33fr;
+    /* 세 개의 열로 나누기 */
+    gap: 10px;
+    width: 100%;
+    height: 25vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.treeWrap8 {
+    display: grid;
+    grid-template-columns: 3.33fr 3.33fr 3.33fr;
+    /* 세 개의 열로 나누기 */
+    gap: 10px;
+    width: 100%;
+    height: 25vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.treeWrap9 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 50vmax;
+    margin-bottom: 10px;
+}
+
+.tree25 {
+    flex: 5;
+}
+
+.tree26 {
+    flex: 5;
+}
+
+.treeWrap10 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 50vmax;
+    margin-bottom: 10px;
+}
+
+.tree28 {
+    flex: 6;
+}
+
+.tree29 {
+    flex: 4;
+}
+
+.treeWrap11 {
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    gap: 10px;
+    width: 100%;
+    height: 23vmax;
+    border-radius: 10px;
     margin-bottom: 10px;
 }
 
 .treeWrap11 {
     grid-template-columns: repeat(4, 1fr);
 }
+
+.treeWrap12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+}
+
+.treeWrap13 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+}
+
+.tree37 {
+    flex: 4;
+}
+
+.tree38 {
+    flex: 6;
+}
+
 
 .treeWrap1 div,
 .treeWrap2 div,
@@ -614,8 +777,8 @@
 .tree6,
 .tree7,
 .tree12,
-.tree25,
-.tree32 {
+.tree34,
+.tree27 {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -626,13 +789,37 @@
 .tree2,
 .tree5,
 .tree6,
-.tree7,
-.tree12,
-.tree25,
-.tree32 {
+.tree12 {
     width: 100%;
     height: 45vmax;
-    /* 필요에 따라 높이를 조정하세요 */
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tree5 {
+    width: 100%;
+    height: 20vmax;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tree7 {
+    width: 100%;
+    height: 30vmax;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tree27 {
+    width: 100%;
+    height: 35vmax;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tree34 {
+    width: 100%;
+    height: 50vmax;
     margin-bottom: 10px;
     position: relative;
 }
@@ -776,4 +963,16 @@
 
 .tree35 {
     background-image: url('/assets/img/prject2/tree35.jpg');
+}
+
+.tree36 {
+    background-image: url('/assets/img/prject2/tree36.jpg');
+}
+
+.tree37 {
+    background-image: url('/assets/img/prject2/tree37.jpg');
+}
+
+.tree38 {
+    background-image: url('/assets/img/prject2/tree38.jpg');
 }
