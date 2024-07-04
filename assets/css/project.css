@@ -1,93 +1,358 @@
+/* guri */
 .guri-main {
     width: 100%;
-    height: 90vh;
-    background-color: #FFF2E1;
+    height: 50vmax;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    box-sizing: border-box;
-    padding: 10px;
     margin-bottom: 10px;
     position: relative;
-}
-
-.guri1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1.2);
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
-    width: auto;
+    background-image: url('/assets/img/prject10/guri1.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .guriWrap {
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 40vmax;
+    /* 전체 높이를 50vh로 설정 */
     margin-bottom: 10px;
     gap: 10px;
+    border-radius: 10px;
 }
 
 .guri2 {
     flex: 1;
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url('/assets/img/prject10/guri2.jpg');
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
 }
 
 .guri3 {
     flex: 1;
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url('/assets/img/prject10/guri3.jpg');
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
-}
-
-.guri-cont1 {
-    width: 100%;
-    height: 90vh;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 10px;
-    position: relative;
-    background-color: #FFF2E1;
 }
 
 .guri4 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 120%;
-    height: 120%;
-    object-fit: cover;
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-image: url('/assets/img/prject10/guri4.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.guriWrap2 {
+.guriWrap {
     display: flex;
     width: 100%;
-    height: 60vh;
+    height: 40vmax;
+    /* 전체 높이를 50vh로 설정 */
     margin-bottom: 10px;
     gap: 10px;
+    border-radius: 10px;
 }
 
 .guri5 {
     flex: 1;
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url('/assets/img/prject10/guri5.jpg');
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
 }
 
 .guri6 {
     flex: 1;
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url('/assets/img/prject10/guri6.jpg');
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
+}
+
+/* moliveTV */
+.mol1 {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject9/mol1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.molWrap1 {
+    display: flex;
+    width: 100%;
+    height: 20vmax;
+    margin-bottom: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* 자식 요소의 둥근 테두리를 유지하기 위해 */
+}
+
+.mol2,
+.mol3,
+.mol4,
+.mol5 {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.mol2 {
+    background-image: url('/assets/img/prject9/mol7.jpg');
+}
+
+.mol3 {
+    background-image: url('/assets/img/prject9/mol3.jpg');
+}
+
+.mol4 {
+    background-image: url('/assets/img/prject9/mol8.jpg');
+}
+
+.mol5 {
+    background-image: url('/assets/img/prject9/mol2.jpg');
+}
+
+.molWrap2 {
+    display: flex;
+    width: 100%;
+    height: 30vmax;
+    /* 전체 높이를 50vh로 설정 */
+    margin-bottom: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.mol6 {
+    flex: 3;
+    background-image: url('/assets/img/prject9/mol4.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.mol7 {
+    flex: 7;
+    background-image: url('/assets/img/prject9/mol5.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.mol8 {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject9/mol6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Yeoljaeyo */
+.yeol1 {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject4/yeol1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.yeolWrap1 {
+    display: flex;
+    width: 100%;
+    height: 20vmax;
+    margin-bottom: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* 자식 요소의 둥근 테두리를 유지하기 위해 */
+}
+
+.yeol2,
+.yeol3 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.yeol2 {
+    flex: 6;
+    /* 60% */
+    background-image: url('/assets/img/prject4/yeol2.jpg');
+}
+
+.yeol3 {
+    flex: 4;
+    /* 40% */
+    background-image: url('/assets/img/prject4/yeol3.jpg');
+}
+
+.yeolWrap2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 2개의 열로 분할 */
+    grid-template-rows: 2fr 1fr;
+    /* 2개의 행으로 분할 */
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+}
+
+.yeol4 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    /* 첫 번째 열의 두 행을 모두 차지 */
+    background-image: url('/assets/img/prject4/yeol4.jpg');
+    /* 실제 이미지 경로로 변경 */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.yeol5 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* 2개의 행으로 분할 */
+    gap: 10px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    border-radius: 10px;
+}
+
+.yeol5wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 2개의 열로 분할 */
+    gap: 10px;
+    background-color: aqua;
+}
+
+.yeol5-1 {
+    background-image: url('/assets/img/prject4/yeol5.jpg');
+    /* 실제 이미지 경로로 변경 */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.yeol5-2 {
+    background-image: url('/assets/img/prject4/yeol6.jpg');
+    /* 실제 이미지 경로로 변경 */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.yeol5-3 {
+    grid-column: 1 / 3;
+    /* 전체 열을 차지 */
+    background-image: url('/assets/img/prject4/yeol7.jpg');
+    /* 실제 이미지 경로로 변경 */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.yeol6 {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject4/yeol8.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.yeol7 {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject4/yeol9.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.yeolWrap3 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    /* 첫 번째 열을 60%, 두 번째 열을 40% */
+    grid-template-rows: 1fr;
+    /* 한 개의 행으로 나누기 */
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.yeol8 {
+    grid-column: 1 / 2;
+    /* 첫 번째 열을 차지 */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-image: url('/assets/img/prject4/yeol10.jpg');
+}
+
+.yeol9 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* 두 개의 행으로 나누기 */
+    gap: 10px;
+    grid-column: 2 / 3;
+    /* 두 번째 열을 차지 */
+    border-radius: 10px;
+}
+
+.yeol9-1,
+.yeol9-2 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.yeol9-1 {
+    background-image: url('/assets/img/prject4/yeol11.jpg');
+}
+
+.yeol9-2 {
+    background-image: url('/assets/img/prject4/yeol12.jpg');
+}
+
+.yeol10 {
+    width: 100%;
+    height: 5vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject4/yeol13.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.yeol11 {
+    width: 100%;
+    height: 40vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject4/yeol14.jpg');
+    background-size: cover;
+    background-position: center;
 }

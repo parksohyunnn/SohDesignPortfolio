@@ -136,11 +136,12 @@ embed {
 }
 
 .cont__text {
-    font-family: var(--fontI);
+    font-family: var(--fontN);
     font-size: 13px;
     line-height: 1.6;
     font-weight: 300;
     margin-bottom: 10px;
+    font-weight: 400;
 }
 
 

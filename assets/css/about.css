@@ -101,7 +101,7 @@
 
 .edu-date {
     font-size: 16px;
-    font-family: var(--fontI);
+    font-family: var(--fontN);
     color: #c0a2d2;
     font-weight: 400;
     margin-right: 10px;
@@ -109,7 +109,7 @@
 
 .edu-text {
     font-size: 14px;
-    font-family: var(--fontI);
+    font-family: var(--fontN);
     color: var(--white);
     font-weight: 400;
     margin-right: 20px;
@@ -117,7 +117,7 @@
 
 .edu-smalltext {
     font-size: 12px;
-    font-family: var(--fontI);
+    font-family: var(--fontN);
     color: var(--white600);
     font-weight: 400;
     margin-top: 3px;
@@ -147,7 +147,7 @@
 }
 
 .career-text {
-    font-family: var(--fontI);
+    font-family: var(--fontN);
     font-size: 32px;
     text-align: center;
     font-weight: 500;
@@ -191,7 +191,7 @@
 
 .car-date {
     font-size: 16px;
-    font-family: var(--fontI);
+    font-family: var(--fontN);
     color: #c0a2d2;
     font-weight: 400;
     margin-right: 10px;
@@ -201,7 +201,7 @@
 
 .car-text {
     font-size: 14px;
-    font-family: var(--fontI);
+    font-family: var(--fontN);
     color: var(--white);
     font-weight: 400;
     margin-right: 20px;
@@ -211,7 +211,7 @@
 
 .car-smalltext {
     font-size: 12px;
-    font-family: var(--fontI);
+    font-family: var(--fontN);
     color: var(--white600);
     font-weight: 400;
     margin-top: 3px;
@@ -233,10 +233,10 @@
 }
 
 .tag-text {
-    font-size: 14px;
-    font-family: var(--fontI);
+    font-size: 16px;
+    font-family: var(--fontN);
     color: var(--white);
-    font-weight: 400;
+    font-weight: 500;
     display: inline-block;
 }
 

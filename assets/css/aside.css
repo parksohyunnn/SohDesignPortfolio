@@ -259,10 +259,10 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
 .aside__info .aside__about {}
 
 .aside__info .aside__about .aside__text {
-    font-family: var(--fontI);
+    font-family: var(--fontN);
     font-size: 13px;
     line-height: 1.6;
-    font-weight: 300;
+    font-weight: 400;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
