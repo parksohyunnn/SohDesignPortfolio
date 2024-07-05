@@ -2,29 +2,28 @@
 .about-title {
     font-family: var(--fontC);
     font-weight: 700;
-    font-size: 120px;
-    margin-bottom: -40px;
-    margin-top: -40px;
+    font-size: 12vmax;
+    margin-bottom: -4vmax;
+    margin-top: -4vmax;
 }
 
 /* main-tape */
 .main-tape {
     width: 100%;
-    height: 150px;
+    height: 8vmax;
+    margin-top: 11.2rem;
     background-color: var(--mainColor);
-    margin-bottom: 10px;
-    border-radius: 10px;
+    margin-bottom: 1vmax;
+    border-radius: 1vmax;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    /* 넘치는 내용을 숨기도록 설정 */
 }
 
 .about-wrapper {
     display: flex;
     animation: scroll 10s linear infinite;
-    /* Make the scrolling smooth by adjusting the duration */
 }
 
 @keyframes scroll {
@@ -41,48 +40,49 @@
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 0px 35px;
+    padding: 0 3.5vmax;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 0.8vmax;
     vertical-align: top;
 }
 
 /* main-content */
 .main-content {
     display: flex;
-    gap: 10px;
+    gap: 1vmax;
+    width: 100%;
+    height: 45vmax;
 }
 
 .profile-picture {
     width: 40%;
-    height: 540px;
     background-color: var(--black100);
-    margin-bottom: 10px;
-    border-radius: 10px;
+    margin-bottom: 1vmax;
+    border-radius: 1vmax;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .profile-picture .profile {
-    width: 75%;
-}
-
-.content-wrap {
-    width: 60%;
-    height: 520px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    width: 80%;
 }
 
 /* education */
+.content-wrap {
+    width: 60%;
+    height: 45vmax;
+    margin-bottom: 1vmax;
+    border-radius: 1vmax;
+}
+
 .education-section {
     width: 100%;
     height: 30%;
     background-color: var(--black200);
-    margin-bottom: 10px;
-    border-radius: 10px;
-    padding: 20px 70px;
+    margin-bottom: 1vmax;
+    border-radius: 1vmax;
+    padding: 2vmax 7vmax;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@
 
 .eduwrap {
     display: flex;
-    margin-bottom: 3px;
+    margin-bottom: 0.3vmax;
 }
 
 .eduTwrap {
@@ -100,154 +100,131 @@
 }
 
 .edu-date {
-    font-size: 16px;
+    font-size: 1.6vmax;
     font-family: var(--fontN);
     color: #c0a2d2;
     font-weight: 400;
-    margin-right: 10px;
+    margin-right: 1vmax;
 }
 
 .edu-text {
-    font-size: 14px;
+    font-size: 1.4vmax;
     font-family: var(--fontN);
     color: var(--white);
     font-weight: 400;
-    margin-right: 20px;
+    margin-right: 2vmax;
 }
 
 .edu-smalltext {
-    font-size: 12px;
+    font-size: 1.2vmax;
     font-family: var(--fontN);
     color: var(--white600);
     font-weight: 400;
-    margin-top: 3px;
+    margin-top: 0.3vmax;
 }
 
 /* career */
+/* career-wrap */
 .career-wrap {
     display: flex;
+    flex-direction: column;
+    gap: 1vmax;
     width: 100%;
-    height: 70%;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    gap: 10px;
-}
-
-.career-title {
-    width: 35%;
-    height: calc(100% + 10px);
-    background-color: var(--mainColor);
-    margin-bottom: 10px;
-    border-radius: 10px;
-    padding: 30px 40px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.career-text {
-    font-family: var(--fontN);
-    font-size: 32px;
-    text-align: center;
-    font-weight: 500;
-    line-height: 1.4;
-}
-
-.ct {
-    font-family: var(--fontG);
-    font-size: 36px;
-    text-align: center;
-    font-weight: 600;
+    margin-bottom: 1vmax;
+    border-radius: 1vmax;
 }
 
 .career-details-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
     width: 100%;
-    height: 100%;
-    margin-bottom: 10px;
-    border-radius: 10px;
 }
 
-/* career-details */
 .career-details {
     width: 100%;
-    height: 70%;
     background-color: var(--black300);
-    margin-bottom: 10px;
-    border-radius: 10px;
-    padding: 50px 60px;
+    border-radius: 1vmax;
+    padding: 5vmax 6vmax;
     box-sizing: border-box;
 }
 
 .carwrap {
     display: flex;
-    margin-bottom: 8px;
+    align-items: center;
+    margin-bottom: 2vmax;
+}
+
+.about-logotitle {
+    width: 2vmax;
+    height: auto;
+    margin-right: 1vmax;
+}
+
+.skill-title {
+    color: var(--mainColor);
+    font-family: var(--fontC);
+    font-weight: 600;
+    font-size: 2vmax;
 }
 
 .carTwrap {
-    /* display: flex; */
-    align-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vmax;
 }
 
 .car-date {
-    font-size: 16px;
+    font-size: 1.6vmax;
     font-family: var(--fontN);
     color: #c0a2d2;
     font-weight: 400;
-    margin-right: 10px;
-    display: inline-block;
-    margin-bottom: 6px;
+    margin-right: 1vmax;
 }
 
 .car-text {
-    font-size: 14px;
+    font-size: 1.4vmax;
     font-family: var(--fontN);
     color: var(--white);
     font-weight: 400;
-    margin-right: 20px;
-    display: inline-block;
-    margin-bottom: 6px;
+    margin-right: 2vmax;
 }
 
 .car-smalltext {
-    font-size: 12px;
+    font-size: 1.2vmax;
     font-family: var(--fontN);
     color: var(--white600);
     font-weight: 400;
-    margin-top: 3px;
-    display: inline-block;
-    margin-bottom: 6px;
 }
 
-/* career-tags */
 .career-tags {
     width: 100%;
-    height: 30%;
     background-color: var(--black400);
-    border-radius: 10px;
+    border-radius: 1vmax;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 70px;
+    padding: 0 7vmax;
     box-sizing: border-box;
 }
 
 .tag-text {
-    font-size: 16px;
+    font-size: 1.6vmax;
     font-family: var(--fontN);
     color: var(--white);
     font-weight: 500;
     display: inline-block;
 }
 
+
 /* skill */
 .skill {
     width: 100%;
-    height: 290px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    height: 29vmax;
+    margin-bottom: 1vmax;
+    border-radius: 1vmax;
     display: flex;
-    gap: 10px;
+    gap: 1vmax;
 }
 
 /* Technology */
@@ -255,39 +232,37 @@
     width: 50%;
     height: inherit;
     background-color: var(--black100);
-    border-radius: 10px;
-    padding: 60px 70px;
+    border-radius: 1vmax;
+    padding: 6vmax 7vmax;
     box-sizing: border-box;
 }
 
-/* .tecTwrap */
 .tecTwrap {
     display: flex;
     align-items: center;
 }
 
 .about-logotitle {
-    width: 20px;
+    width: 2vmax;
     height: auto;
-    margin-right: 10px;
+    margin-right: 1vmax;
 }
 
 .skill-title {
     color: var(--mainColor);
     font-family: var(--fontC);
     font-weight: 600;
-    font-size: 20px;
-    margin-right: 20px;
+    font-size: 2vmax;
+    margin-right: 2vmax;
 }
 
 .technology-text {
     font-family: var(--fontP);
-    font-size: 13px;
+    font-size: 1.3vmax;
     font-weight: 400;
     color: #c0a2d2;
 }
 
-/* tecWrap */
 .tecWrap {
     display: flex;
     justify-content: space-between;
@@ -295,84 +270,75 @@
 
 .skill-img {
     width: 16%;
-    margin-top: 28px;
+    margin-top: 2.8vmax;
 }
-
 
 /* Design */
 .skill .skill-des {
     width: 50%;
     height: inherit;
     background-color: var(--black100);
-    border-radius: 10px;
-    padding: 60px 70px;
+    border-radius: 1vmax;
+    padding: 6vmax 7vmax;
     box-sizing: border-box;
 }
 
 .design-text {
     font-family: var(--fontP);
-    font-size: 13px;
+    font-size: 1.3vmax;
     font-weight: 400;
     color: #c0a2d2;
 }
 
-
-/* desWrap */
 .desWrap {
     display: flex;
     justify-content: space-between;
 }
 
-
 /* personal */
 .personal {
     width: 100%;
-    height: 200px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    height: 20vmax;
+    margin-bottom: 1vmax;
+    border-radius: 1vmax;
     display: flex;
-    gap: 10px;
+    gap: 1vmax;
 }
 
 .personality {
     width: 55%;
-    height: 200px;
+    height: 100%;
     background-color: var(--black200);
-    margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 1vmax;
+}
 
+.plan,
+.design,
+.develop {
+    width: 15%;
+    height: 100%;
+    margin-bottom: 1vmax;
+    border-radius: 1vmax;
 }
 
 .plan {
-    width: 15%;
-    height: 200px;
     background-color: #c463fda5;
-    margin-bottom: 10px;
-    border-radius: 10px;
 }
 
 .design {
-    width: 15%;
-    height: 200px;
     background-color: #c463fdd7;
-    margin-bottom: 10px;
-    border-radius: 10px;
 }
 
 .develop {
-    width: 15%;
-    height: 200px;
     background-color: #C463FD;
-    margin-bottom: 10px;
-    border-radius: 10px;
 }
 
 /* intro */
 .intro {
     width: 100%;
-    height: 300px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    height: 30vmax;
+    margin-bottom: 1vmax;
+    border-radius: 1vmax;
     background-color: #e7f73a;
 }
 
@@ -389,41 +355,38 @@
 /* contactWrap */
 .contactWrap {
     width: 100%;
-    height: 200px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    height: 20vmax;
+    margin-bottom: 1vmax;
+    border-radius: 1vmax;
     display: flex;
-    gap: 10px;
+    gap: 1vmax;
+}
+
+.contact,
+.follow,
+.blog {
+    width: 33.33%;
+    height: 100%;
+    margin-bottom: 1vmax;
+    border-radius: 1vmax;
 }
 
 .contact {
-    width: 50%;
-    height: 200px;
-    margin-bottom: 10px;
-    border-radius: 10px;
     background-color: #6DFF6C;
 }
 
 .follow {
-    width: 25%;
-    height: 200px;
-    margin-bottom: 10px;
-    border-radius: 10px;
     background-color: #FC70FF;
 }
 
 .blog {
-    width: 25%;
-    height: 200px;
-    margin-bottom: 10px;
-    border-radius: 10px;
     background-color: #5AB0FF;
 }
 
 /* copyright */
 .copyright {
     width: 100%;
-    height: 120px;
+    height: 12vmax;
     background-color: var(--mainColor);
-    border-radius: 10px;
+    border-radius: 1vmax;
 }

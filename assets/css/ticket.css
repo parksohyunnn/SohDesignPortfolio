@@ -1,0 +1,282 @@
+/* 티켓픽 */
+
+/* ticket1 */
+.ticket1 {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject1/ticket1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ticketWrap1 */
+.ticketWrap1 {
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.ticket2 {
+    width: 50%;
+    height: 40vmax;
+}
+
+.ticket2-1 {
+    width: 100%;
+    height: calc(30vmax - 10px);
+    background-image: url('/assets/img/prject1/ticket2.jpg');
+    margin-bottom: 10px;
+}
+
+.ticket2-2 {
+    width: 100%;
+    height: 10vmax;
+    background-image: url('/assets/img/prject1/ticket3.jpg');
+}
+
+.ticket3 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-image: url('/assets/img/prject1/ticket4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ticketWrap2 */
+.ticketWrap2 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 24vmax;
+    margin-bottom: 10px;
+}
+
+.ticket4 {
+    flex: 1;
+    background-image: url('/assets/img/prject1/ticket5.jpg');
+}
+
+.ticket5 {
+    flex: 1;
+    background-image: url('/assets/img/prject1/ticket6.jpg');
+}
+
+/* ticketWrap3 */
+.ticketWrap3 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 24vmax;
+    margin-bottom: 10px;
+}
+
+.ticket6 {
+    flex: 1;
+    background-image: url('/assets/img/prject1/ticket7.jpg');
+}
+
+.ticket7 {
+    flex: 1;
+    background-image: url('/assets/img/prject1/ticket8.jpg');
+}
+
+/* ticketWrap4 */
+.ticketWrap4 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 17vmax;
+    margin-bottom: 10px;
+}
+
+.ticket8 {
+    flex: 3.3;
+    background-image: url('/assets/img/prject1/ticket9.jpg');
+}
+
+.ticket9 {
+    flex: 3.3;
+    background-image: url('/assets/img/prject1/ticket10.jpg');
+}
+
+.ticket10 {
+    flex: 3.3;
+    background-image: url('/assets/img/prject1/ticket11.jpg');
+}
+
+/* ticket11 */
+.ticket11 {
+    width: 100%;
+    height: 50vmax;
+    margin-bottom: 10px;
+    background-image: url('/assets/img/prject1/ticket12.jpg');
+}
+
+/* ticket12 */
+.ticket12 {
+    width: 100%;
+    height: 45vmax;
+    margin-bottom: 10px;
+    background-image: url('/assets/img/prject1/ticket13.jpg');
+}
+
+/* ticket13 */
+.ticket13 {
+    width: 100%;
+    height: 15vmax;
+    margin-bottom: 10px;
+    background-image: url('/assets/img/prject1/ticket14.jpg');
+}
+
+/* ticket14 */
+.ticket14 {
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+    background-image: url('/assets/img/prject1/ticket15.jpg');
+}
+
+/* ticketWrap5 */
+.ticketWrap5 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 28vmax;
+    margin-bottom: 10px;
+}
+
+.ticket15 {
+    flex: 3.3;
+    background-image: url('/assets/img/prject1/ticket16.jpg');
+}
+
+.ticket16 {
+    flex: 3.3;
+    background-image: url('/assets/img/prject1/ticket17.jpg');
+}
+
+.ticket17 {
+    flex: 3.3;
+    background-image: url('/assets/img/prject1/ticket18.jpg');
+}
+
+/* ticketWrap6 */
+.ticketWrap6 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+}
+
+.ticket18 {
+    flex: 4.8;
+    background-image: url('/assets/img/prject1/ticket19.jpg');
+}
+
+.ticket19 {
+    flex: 5.2;
+    background-image: url('/assets/img/prject1/ticket20.jpg');
+}
+
+/* ticket20 */
+.ticket20 {
+    width: 100%;
+    height: 45vmax;
+    margin-bottom: 10px;
+    background-image: url('/assets/img/prject1/ticket21.jpg');
+}
+
+/* ticketWrap7 */
+.ticketWrap7 {
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.ticket21 {
+    width: 50%;
+    height: 40vmax;
+    background-image: url('/assets/img/prject1/ticket22.jpg');
+}
+
+.ticket22 {
+    width: 50%;
+    height: calc(40vmax - 10px);
+}
+
+.ticket22-1 {
+    width: 100%;
+    height: 22vmax;
+    background-image: url('/assets/img/prject1/ticket23.jpg');
+    margin-bottom: 10px;
+}
+
+.ticket22-2 {
+    width: 100%;
+    height: 18vmax;
+    background-image: url('/assets/img/prject1/ticket24.jpg');
+}
+
+/* ticketWrap8 */
+.ticketWrap8 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+}
+
+.ticket23 {
+    flex: 4.8;
+    background-image: url('/assets/img/prject1/ticket19.jpg');
+}
+
+.ticket24 {
+    flex: 5.2;
+    background-image: url('/assets/img/prject1/ticket20.jpg');
+}
+
+/* 개별 티켓 스타일링 */
+.ticket2,
+.ticket3,
+.ticket4,
+.ticket5,
+.ticket6,
+.ticket7,
+.ticket8,
+.ticket9,
+.ticket10,
+.ticket11,
+.ticket12,
+.ticket13,
+.ticket14,
+.ticket15,
+.ticket16,
+.ticket17,
+.ticket18,
+.ticket19,
+.ticket20,
+.ticket21,
+.ticket22,
+.ticket23,
+.ticket24,
+.ticket2-1,
+.ticket2-2,
+.ticket22-1,
+.ticket22-2,
+.ticket24 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vmax;
+}

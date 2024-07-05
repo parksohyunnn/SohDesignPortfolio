@@ -588,16 +588,16 @@
     display: flex;
     gap: 10px;
     width: 100%;
-    height: 30vmax;
+    height: 32vmax;
     margin-bottom: 10px;
 }
 
 .tree8 {
-    flex: 6;
+    flex: 6.5;
 }
 
 .tree9 {
-    flex: 4;
+    flex: 3.5;
 }
 
 .treeWrap3 {
