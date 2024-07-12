@@ -79,7 +79,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject9/mol1.jpg');
+    background-image: url('/assets/img/prject9/mol1.webp');
     background-size: cover;
     background-position: center;
 }
@@ -106,19 +106,19 @@
 }
 
 .mol2 {
-    background-image: url('/assets/img/prject9/mol7.jpg');
+    background-image: url('/assets/img/prject9/mol7.webp');
 }
 
 .mol3 {
-    background-image: url('/assets/img/prject9/mol3.jpg');
+    background-image: url('/assets/img/prject9/mol3.webp');
 }
 
 .mol4 {
-    background-image: url('/assets/img/prject9/mol8.jpg');
+    background-image: url('/assets/img/prject9/mol8.webp');
 }
 
 .mol5 {
-    background-image: url('/assets/img/prject9/mol2.jpg');
+    background-image: url('/assets/img/prject9/mol2.webp');
 }
 
 .molWrap2 {
@@ -133,7 +133,7 @@
 
 .mol6 {
     flex: 3;
-    background-image: url('/assets/img/prject9/mol4.jpg');
+    background-image: url('/assets/img/prject9/mol4.webp');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -141,7 +141,7 @@
 
 .mol7 {
     flex: 7;
-    background-image: url('/assets/img/prject9/mol5.jpg');
+    background-image: url('/assets/img/prject9/mol5.webp');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -153,7 +153,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject9/mol6.jpg');
+    background-image: url('/assets/img/prject9/mol6.webp');
     background-size: cover;
     background-position: center;
 }
@@ -165,7 +165,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject4/yeol1.jpg');
+    background-image: url('/assets/img/prject4/yeol1.webp');
     background-size: cover;
     background-position: center;
 }
@@ -191,13 +191,13 @@
 .yeol2 {
     flex: 6;
     /* 60% */
-    background-image: url('/assets/img/prject4/yeol2.jpg');
+    background-image: url('/assets/img/prject4/yeol2.webp');
 }
 
 .yeol3 {
     flex: 4;
     /* 40% */
-    background-image: url('/assets/img/prject4/yeol3.jpg');
+    background-image: url('/assets/img/prject4/yeol3.webp');
 }
 
 .yeolWrap2 {
@@ -215,7 +215,7 @@
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     /* 첫 번째 열의 두 행을 모두 차지 */
-    background-image: url('/assets/img/prject4/yeol4.jpg');
+    background-image: url('/assets/img/prject4/yeol4.webp');
     /* 실제 이미지 경로로 변경 */
     background-size: cover;
     background-position: center;
@@ -241,7 +241,7 @@
 }
 
 .yeol5-1 {
-    background-image: url('/assets/img/prject4/yeol5.jpg');
+    background-image: url('/assets/img/prject4/yeol5.webp');
     /* 실제 이미지 경로로 변경 */
     background-size: cover;
     background-position: center;
@@ -249,7 +249,7 @@
 }
 
 .yeol5-2 {
-    background-image: url('/assets/img/prject4/yeol6.jpg');
+    background-image: url('/assets/img/prject4/yeol6.webp');
     /* 실제 이미지 경로로 변경 */
     background-size: cover;
     background-position: center;
@@ -259,7 +259,7 @@
 .yeol5-3 {
     grid-column: 1 / 3;
     /* 전체 열을 차지 */
-    background-image: url('/assets/img/prject4/yeol7.jpg');
+    background-image: url('/assets/img/prject4/yeol7.webp');
     /* 실제 이미지 경로로 변경 */
     background-size: cover;
     background-position: center;
@@ -272,7 +272,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject4/yeol8.jpg');
+    background-image: url('/assets/img/prject4/yeol8.webp');
     background-size: cover;
     background-position: center;
 }
@@ -283,7 +283,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject4/yeol9.jpg');
+    background-image: url('/assets/img/prject4/yeol9.webp');
     background-size: cover;
     background-position: center;
 }
@@ -307,7 +307,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    background-image: url('/assets/img/prject4/yeol10.jpg');
+    background-image: url('/assets/img/prject4/yeol10.webp');
 }
 
 .yeol9 {
@@ -328,11 +328,11 @@
 }
 
 .yeol9-1 {
-    background-image: url('/assets/img/prject4/yeol11.jpg');
+    background-image: url('/assets/img/prject4/yeol11.webp');
 }
 
 .yeol9-2 {
-    background-image: url('/assets/img/prject4/yeol12.jpg');
+    background-image: url('/assets/img/prject4/yeol12.webp');
 }
 
 .yeol10 {
@@ -341,7 +341,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject4/yeol13.jpg');
+    background-image: url('/assets/img/prject4/yeol13.webp');
     background-size: cover;
     background-position: center;
 }
@@ -352,7 +352,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject4/yeol14.jpg');
+    background-image: url('/assets/img/prject4/yeol14.webp');
     background-size: cover;
     background-position: center;
 }
@@ -377,15 +377,15 @@
 }
 
 .yeol12 {
-    background-image: url('/assets/img/prject4/yeol15.jpg');
+    background-image: url('/assets/img/prject4/yeol15.webp');
 }
 
 .yeol13 {
-    background-image: url('/assets/img/prject4/yeol16.jpg');
+    background-image: url('/assets/img/prject4/yeol16.webp');
 }
 
 .yeol14 {
-    background-image: url('/assets/img/prject4/yeol17.jpg');
+    background-image: url('/assets/img/prject4/yeol17.webp');
 }
 
 .yeolWrap5 {
@@ -409,13 +409,13 @@
 .yeol15 {
     flex: 3;
     /* 60% */
-    background-image: url('/assets/img/prject4/yeol18.jpg');
+    background-image: url('/assets/img/prject4/yeol18.webp');
 }
 
 .yeol16 {
     flex: 7;
     /* 40% */
-    background-image: url('/assets/img/prject4/yeol19.jpg');
+    background-image: url('/assets/img/prject4/yeol19.webp');
 }
 
 .yeol17 {
@@ -424,7 +424,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject4/yeol20.jpg');
+    background-image: url('/assets/img/prject4/yeol20.webp');
     background-size: cover;
     background-position: center;
 }
@@ -435,7 +435,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject4/yeol21.jpg');
+    background-image: url('/assets/img/prject4/yeol21.webp');
     background-size: cover;
     background-position: center;
 }
@@ -446,7 +446,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject4/yeol22.jpg');
+    background-image: url('/assets/img/prject4/yeol22.webp');
     background-size: cover;
     background-position: center;
 }
@@ -471,12 +471,12 @@
 
 .yeol20 {
     flex: 4.5;
-    background-image: url('/assets/img/prject4/yeol23.jpg');
+    background-image: url('/assets/img/prject4/yeol23.webp');
 }
 
 .yeol21 {
     flex: 5.5;
-    background-image: url('/assets/img/prject4/yeol24.jpg');
+    background-image: url('/assets/img/prject4/yeol24.webp');
 }
 
 .yeol22 {
@@ -485,7 +485,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject4/yeol25.jpg');
+    background-image: url('/assets/img/prject4/yeol25.webp');
     background-size: cover;
     background-position: center;
 }
@@ -509,12 +509,12 @@
 
 .yeol20 {
     flex: 6.5;
-    background-image: url('/assets/img/prject4/yeol26.jpg');
+    background-image: url('/assets/img/prject4/yeol26.webp');
 }
 
 .yeol21 {
     flex: 3.5;
-    background-image: url('/assets/img/prject4/yeol27.jpg');
+    background-image: url('/assets/img/prject4/yeol27.webp');
 }
 
 .yeol22 {
@@ -523,7 +523,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject4/yeol28.jpg');
+    background-image: url('/assets/img/prject4/yeol28.webp');
     background-size: cover;
     background-position: center;
 }
@@ -548,12 +548,12 @@
 
 .yeol23 {
     flex: 4.5;
-    background-image: url('/assets/img/prject4/yeol29.jpg');
+    background-image: url('/assets/img/prject4/yeol29.webp');
 }
 
 .yeol24 {
     flex: 5.5;
-    background-image: url('/assets/img/prject4/yeol30.jpg');
+    background-image: url('/assets/img/prject4/yeol30.webp');
 }
 
 .yeol25 {
@@ -562,7 +562,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject4/yeol31.jpg');
+    background-image: url('/assets/img/prject4/yeol31.webp');
     background-size: cover;
     background-position: center;
 }
