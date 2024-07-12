@@ -1,0 +1,246 @@
+/* 청춘페스티벌 */
+
+/* festival1 */
+.festival1 {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('../img/prject5/festival1.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+/* festivalWrap1 */
+.festivalWrap1 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+}
+
+.festival2 {
+    flex: 2;
+    background-image: url('../img/prject5/festival2.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.festival3 {
+    flex: 3;
+    background-image: url('../img/prject5/festival3.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* festival4 */
+.festival4 {
+    width: 100%;
+    height: 20vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('../img/prject5/festival4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* festival5 */
+.festival5 {
+    width: 100%;
+    height: 8vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('../img/prject5/festival5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* festivalWrap2 */
+.festivalWrap2 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 36vmax;
+    margin-bottom: 10px;
+}
+
+.festival6 {
+    flex: 6.5;
+    background-image: url('../img/prject5/festival6.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.festival7 {
+    flex: 3.5;
+    background-image: url('../img/prject5/festival7.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* festivalWrap3 */
+.festivalWrap3 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 50vmax;
+    margin-bottom: 10px;
+}
+
+.festival8 {
+    flex: 1;
+    background-image: url('../img/prject5/festival8.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.festival9 {
+    flex: 1;
+    background-image: url('../img/prject5/festival9.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* festivalWrap4 */
+.festivalWrap4 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 33vmax;
+    margin-bottom: 10px;
+}
+
+.festival10 {
+    flex: 1;
+    background-image: url('../img/prject5/festival10.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.festival11 {
+    flex: 1;
+    background-image: url('../img/prject5/festival11.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.festival12 {
+    flex: 1;
+    background-image: url('../img/prject5/festival12.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* festivalWrap5 */
+.festivalWrap5 {
+    gap: 10px;
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.festival13 {
+    width: 50%;
+    height: 50vmax;
+    background-image: url('../img/prject5/festival13.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.festival14 {
+    width: 50%;
+    height: 50vmax;
+}
+
+.festival14-1 {
+    width: 100%;
+    height: 15vmax;
+    background-image: url('../img/prject5/festival14.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.festival14-2 {
+    width: 100%;
+    height: calc(35vmax - 8px);
+    background-image: url('../img/prject5/festival15.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* festival15 */
+.festival15 {
+    width: 100%;
+    height: 15vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #FF9DD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* 애니메이션이 바깥으로 나가지 않도록 설정 */
+}
+
+.festival15-img {
+    background-image: url('../img/prject5/festival.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 13vmax;
+    animation: moveHorizontal 8s linear infinite, changeColor 5s linear infinite alternate;
+}
+
+/* 수평 이동 애니메이션 */
+@keyframes moveHorizontal {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* 색상 변경 애니메이션 */
+/* @keyframes changeColor {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+} */
+
+/* festival16 */
+.festival16 {
+    width: 100%;
+    height: 44vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('../img/prject5/festival19.webp');
+    background-size: cover;
+    background-position: center;
+}
