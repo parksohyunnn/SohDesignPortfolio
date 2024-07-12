@@ -5,7 +5,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url('/assets/img/prject10/guri1.jpg');
+    background-image: url('/assets/img/prject10/guri1.webp');
     background-size: cover;
     background-position: center;
 }
@@ -22,7 +22,7 @@
 
 .guri2 {
     flex: 1;
-    background-image: url('/assets/img/prject10/guri2.jpg');
+    background-image: url('/assets/img/prject10/guri2.webp');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -30,7 +30,7 @@
 
 .guri3 {
     flex: 1;
-    background-image: url('/assets/img/prject10/guri3.jpg');
+    background-image: url('/assets/img/prject10/guri3.webp');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -41,7 +41,7 @@
     height: 50vmax;
     border-radius: 10px;
     margin-bottom: 10px;
-    background-image: url('/assets/img/prject10/guri4.jpg');
+    background-image: url('/assets/img/prject10/guri4.webp');
     background-size: cover;
     background-position: center;
 }
@@ -58,7 +58,7 @@
 
 .guri5 {
     flex: 1;
-    background-image: url('/assets/img/prject10/guri5.jpg');
+    background-image: url('/assets/img/prject10/guri5.webp');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -66,7 +66,7 @@
 
 .guri6 {
     flex: 1;
-    background-image: url('/assets/img/prject10/guri6.jpg');
+    background-image: url('/assets/img/prject10/guri6.webp');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
