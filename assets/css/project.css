@@ -1,87 +1,411 @@
-/* moliveTV */
-.mol1 {
-    width: 100%;
-    height: 50vmax;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    position: relative;
-    background-image: url('/assets/img/prject9/mol1.webp');
-    background-size: cover;
-    background-position: center;
-}
-
-.molWrap1 {
+/* 트리헌드레드 */
+.treeWrap1 {
     display: flex;
+    gap: 10px;
     width: 100%;
     height: 20vmax;
     margin-bottom: 10px;
-    gap: 10px;
-    border-radius: 10px;
-    overflow: hidden;
-    /* 자식 요소의 둥근 테두리를 유지하기 위해 */
 }
 
-.mol2,
-.mol3,
-.mol4,
-.mol5 {
-    flex: 1;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
+.tree3 {
+    flex: 3;
 }
 
-.mol2 {
-    background-image: url('/assets/img/prject9/mol7.webp');
+.tree4 {
+    flex: 7;
 }
 
-.mol3 {
-    background-image: url('/assets/img/prject9/mol3.webp');
-}
-
-.mol4 {
-    background-image: url('/assets/img/prject9/mol8.webp');
-}
-
-.mol5 {
-    background-image: url('/assets/img/prject9/mol2.webp');
-}
-
-.molWrap2 {
+.treeWrap2 {
     display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 32vmax;
+    margin-bottom: 10px;
+}
+
+.tree8 {
+    flex: 6.5;
+}
+
+.tree9 {
+    flex: 3.5;
+}
+
+.treeWrap3 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+}
+
+.tree10 {
+    flex: 4.5;
+}
+
+.tree11 {
+    flex: 5.5;
+}
+
+.treeWrap4 {
+    display: flex;
+    gap: 10px;
     width: 100%;
     height: 30vmax;
-    /* 전체 높이를 50vh로 설정 */
     margin-bottom: 10px;
+}
+
+.tree13 {
+    flex: 6.5;
+}
+
+.tree14 {
+    flex: 3.5;
+}
+
+.treeWrap5 {
+    display: flex;
     gap: 10px;
-    border-radius: 10px;
+    width: 100%;
+    height: 30vmax;
+    margin-bottom: 10px;
 }
 
-.mol6 {
+.tree15 {
     flex: 3;
-    background-image: url('/assets/img/prject9/mol4.webp');
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
 }
 
-.mol7 {
+.tree16 {
     flex: 7;
-    background-image: url('/assets/img/prject9/mol5.webp');
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
 }
 
-.mol8 {
+.treeWrap6 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+}
+
+.tree17 {
+    flex: 5;
+}
+
+.tree18 {
+    flex: 5;
+}
+
+.treeWrap7 {
+    display: grid;
+    grid-template-columns: 3.33fr 3.33fr 3.33fr;
+    /* 세 개의 열로 나누기 */
+    gap: 10px;
+    width: 100%;
+    height: 25vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.treeWrap8 {
+    display: grid;
+    grid-template-columns: 3.33fr 3.33fr 3.33fr;
+    /* 세 개의 열로 나누기 */
+    gap: 10px;
+    width: 100%;
+    height: 25vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.treeWrap9 {
+    display: flex;
+    gap: 10px;
     width: 100%;
     height: 50vmax;
+    margin-bottom: 10px;
+}
+
+.tree25 {
+    flex: 5;
+}
+
+.tree26 {
+    flex: 5;
+}
+
+.treeWrap10 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 50vmax;
+    margin-bottom: 10px;
+}
+
+.tree28 {
+    flex: 6;
+}
+
+.tree29 {
+    flex: 4;
+}
+
+.treeWrap11 {
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    gap: 10px;
+    width: 100%;
+    height: 23vmax;
     border-radius: 10px;
     margin-bottom: 10px;
-    position: relative;
-    background-image: url('/assets/img/prject9/mol6.webp');
+}
+
+.treeWrap11 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.treeWrap12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+}
+
+.treeWrap13 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 40vmax;
+    margin-bottom: 10px;
+}
+
+.tree37 {
+    flex: 4;
+}
+
+.tree38 {
+    flex: 6;
+}
+
+
+.treeWrap1 div,
+.treeWrap2 div,
+.treeWrap3 div,
+.treeWrap4 div,
+.treeWrap5 div,
+.treeWrap6 div,
+.treeWrap7 div,
+.treeWrap8 div,
+.treeWrap9 div,
+.treeWrap10 div,
+.treeWrap11 div,
+.treeWrap12 div,
+.treeWrap13 div,
+.tree1,
+.tree2,
+.tree5,
+.tree6,
+.tree7,
+.tree12,
+.tree34,
+.tree27 {
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
+}
+
+/* 단일 이미지 요소 스타일링 */
+.tree1,
+.tree2,
+.tree5,
+.tree6,
+.tree12 {
+    width: 100%;
+    height: 45vmax;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tree5 {
+    width: 100%;
+    height: 20vmax;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tree7 {
+    width: 100%;
+    height: 30vmax;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tree27 {
+    width: 100%;
+    height: 35vmax;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tree34 {
+    width: 100%;
+    height: 50vmax;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* 배경 이미지 설정 */
+.tree1 {
+    background-image: url('/assets/img/prject2/tree1.jpg');
+}
+
+.tree2 {
+    background-image: url('/assets/img/prject2/tree2.jpg');
+}
+
+.tree3 {
+    background-image: url('/assets/img/prject2/tree3.jpg');
+}
+
+.tree4 {
+    background-image: url('/assets/img/prject2/tree4.jpg');
+}
+
+.tree5 {
+    background-image: url('/assets/img/prject2/tree5.jpg');
+}
+
+.tree6 {
+    background-image: url('/assets/img/prject2/tree6.jpg');
+}
+
+.tree7 {
+    background-image: url('/assets/img/prject2/tree7.jpg');
+}
+
+.tree8 {
+    background-image: url('/assets/img/prject2/tree8.jpg');
+}
+
+.tree9 {
+    background-image: url('/assets/img/prject2/tree9.jpg');
+}
+
+.tree10 {
+    background-image: url('/assets/img/prject2/tree10.jpg');
+}
+
+.tree11 {
+    background-image: url('/assets/img/prject2/tree11.jpg');
+}
+
+.tree12 {
+    background-image: url('/assets/img/prject2/tree12.jpg');
+}
+
+.tree13 {
+    background-image: url('/assets/img/prject2/tree13.jpg');
+}
+
+.tree14 {
+    background-image: url('/assets/img/prject2/tree14.jpg');
+}
+
+.tree15 {
+    background-image: url('/assets/img/prject2/tree15.jpg');
+}
+
+.tree16 {
+    background-image: url('/assets/img/prject2/tree16.jpg');
+}
+
+.tree17 {
+    background-image: url('/assets/img/prject2/tree17.jpg');
+}
+
+.tree18 {
+    background-image: url('/assets/img/prject2/tree18.jpg');
+}
+
+.tree19 {
+    background-image: url('/assets/img/prject2/tree19.jpg');
+}
+
+.tree20 {
+    background-image: url('/assets/img/prject2/tree20.jpg');
+}
+
+.tree21 {
+    background-image: url('/assets/img/prject2/tree21.jpg');
+}
+
+.tree22 {
+    background-image: url('/assets/img/prject2/tree22.jpg');
+}
+
+.tree23 {
+    background-image: url('/assets/img/prject2/tree23.jpg');
+}
+
+.tree24 {
+    background-image: url('/assets/img/prject2/tree24.jpg');
+}
+
+.tree25 {
+    background-image: url('/assets/img/prject2/tree25.jpg');
+}
+
+.tree26 {
+    background-image: url('/assets/img/prject2/tree26.jpg');
+}
+
+.tree27 {
+    background-image: url('/assets/img/prject2/tree27.jpg');
+}
+
+.tree28 {
+    background-image: url('/assets/img/prject2/tree28.jpg');
+}
+
+.tree29 {
+    background-image: url('/assets/img/prject2/tree29.jpg');
+}
+
+.tree30 {
+    background-image: url('/assets/img/prject2/tree30.jpg');
+}
+
+.tree31 {
+    background-image: url('/assets/img/prject2/tree31.jpg');
+}
+
+.tree32 {
+    background-image: url('/assets/img/prject2/tree32.jpg');
+}
+
+.tree33 {
+    background-image: url('/assets/img/prject2/tree33.jpg');
+}
+
+.tree34 {
+    background-image: url('/assets/img/prject2/tree34.jpg');
+}
+
+.tree35 {
+    background-image: url('/assets/img/prject2/tree35.jpg');
+}
+
+.tree36 {
+    background-image: url('/assets/img/prject2/tree36.jpg');
+}
+
+.tree37 {
+    background-image: url('/assets/img/prject2/tree37.jpg');
+}
+
+.tree38 {
+    background-image: url('/assets/img/prject2/tree38.jpg');
 }
 
 /* Yeoljaeyo */
@@ -493,414 +817,90 @@
     background-position: center;
 }
 
-/* 트리헌드레드 */
-.treeWrap1 {
+/* moliveTV */
+.mol1 {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('./assets/img/prject9/mol1.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.molWrap1 {
     display: flex;
-    gap: 10px;
     width: 100%;
     height: 20vmax;
     margin-bottom: 10px;
-}
-
-.tree3 {
-    flex: 3;
-}
-
-.tree4 {
-    flex: 7;
-}
-
-.treeWrap2 {
-    display: flex;
     gap: 10px;
-    width: 100%;
-    height: 32vmax;
-    margin-bottom: 10px;
-}
-
-.tree8 {
-    flex: 6.5;
-}
-
-.tree9 {
-    flex: 3.5;
-}
-
-.treeWrap3 {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-    height: 40vmax;
-    margin-bottom: 10px;
-}
-
-.tree10 {
-    flex: 4.5;
-}
-
-.tree11 {
-    flex: 5.5;
-}
-
-.treeWrap4 {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-    height: 30vmax;
-    margin-bottom: 10px;
-}
-
-.tree13 {
-    flex: 6.5;
-}
-
-.tree14 {
-    flex: 3.5;
-}
-
-.treeWrap5 {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-    height: 30vmax;
-    margin-bottom: 10px;
-}
-
-.tree15 {
-    flex: 3;
-}
-
-.tree16 {
-    flex: 7;
-}
-
-.treeWrap6 {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-    height: 40vmax;
-    margin-bottom: 10px;
-}
-
-.tree17 {
-    flex: 5;
-}
-
-.tree18 {
-    flex: 5;
-}
-
-.treeWrap7 {
-    display: grid;
-    grid-template-columns: 3.33fr 3.33fr 3.33fr;
-    /* 세 개의 열로 나누기 */
-    gap: 10px;
-    width: 100%;
-    height: 25vmax;
     border-radius: 10px;
-    margin-bottom: 10px;
+    overflow: hidden;
+    /* 자식 요소의 둥근 테두리를 유지하기 위해 */
 }
 
-.treeWrap8 {
-    display: grid;
-    grid-template-columns: 3.33fr 3.33fr 3.33fr;
-    /* 세 개의 열로 나누기 */
-    gap: 10px;
-    width: 100%;
-    height: 25vmax;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-.treeWrap9 {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-    height: 50vmax;
-    margin-bottom: 10px;
-}
-
-.tree25 {
-    flex: 5;
-}
-
-.tree26 {
-    flex: 5;
-}
-
-.treeWrap10 {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-    height: 50vmax;
-    margin-bottom: 10px;
-}
-
-.tree28 {
-    flex: 6;
-}
-
-.tree29 {
-    flex: 4;
-}
-
-.treeWrap11 {
-    display: grid;
-    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
-    gap: 10px;
-    width: 100%;
-    height: 23vmax;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-.treeWrap11 {
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.treeWrap12 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    width: 100%;
-    height: 40vmax;
-    margin-bottom: 10px;
-}
-
-.treeWrap13 {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-    height: 40vmax;
-    margin-bottom: 10px;
-}
-
-.tree37 {
-    flex: 4;
-}
-
-.tree38 {
-    flex: 6;
-}
-
-
-.treeWrap1 div,
-.treeWrap2 div,
-.treeWrap3 div,
-.treeWrap4 div,
-.treeWrap5 div,
-.treeWrap6 div,
-.treeWrap7 div,
-.treeWrap8 div,
-.treeWrap9 div,
-.treeWrap10 div,
-.treeWrap11 div,
-.treeWrap12 div,
-.treeWrap13 div,
-.tree1,
-.tree2,
-.tree5,
-.tree6,
-.tree7,
-.tree12,
-.tree34,
-.tree27 {
+.mol2,
+.mol3,
+.mol4,
+.mol5 {
+    flex: 1;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
 }
 
-/* 단일 이미지 요소 스타일링 */
-.tree1,
-.tree2,
-.tree5,
-.tree6,
-.tree12 {
-    width: 100%;
-    height: 45vmax;
-    margin-bottom: 10px;
-    position: relative;
+.mol2 {
+    background-image: url('/assets/img/prject9/mol7.webp');
 }
 
-.tree5 {
-    width: 100%;
-    height: 20vmax;
-    margin-bottom: 10px;
-    position: relative;
+.mol3 {
+    background-image: url('/assets/img/prject9/mol3.webp');
 }
 
-.tree7 {
+.mol4 {
+    background-image: url('/assets/img/prject9/mol8.webp');
+}
+
+.mol5 {
+    background-image: url('/assets/img/prject9/mol2.webp');
+}
+
+.molWrap2 {
+    display: flex;
     width: 100%;
     height: 30vmax;
+    /* 전체 높이를 50vh로 설정 */
     margin-bottom: 10px;
-    position: relative;
+    gap: 10px;
+    border-radius: 10px;
 }
 
-.tree27 {
-    width: 100%;
-    height: 35vmax;
-    margin-bottom: 10px;
-    position: relative;
+.mol6 {
+    flex: 3;
+    background-image: url('/assets/img/prject9/mol4.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
 
-.tree34 {
+.mol7 {
+    flex: 7;
+    background-image: url('/assets/img/prject9/mol5.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.mol8 {
     width: 100%;
     height: 50vmax;
+    border-radius: 10px;
     margin-bottom: 10px;
     position: relative;
-}
-
-/* 배경 이미지 설정 */
-.tree1 {
-    background-image: url('/assets/img/prject2/tree1.jpg');
-}
-
-.tree2 {
-    background-image: url('/assets/img/prject2/tree2.jpg');
-}
-
-.tree3 {
-    background-image: url('/assets/img/prject2/tree3.jpg');
-}
-
-.tree4 {
-    background-image: url('/assets/img/prject2/tree4.jpg');
-}
-
-.tree5 {
-    background-image: url('/assets/img/prject2/tree5.jpg');
-}
-
-.tree6 {
-    background-image: url('/assets/img/prject2/tree6.jpg');
-}
-
-.tree7 {
-    background-image: url('/assets/img/prject2/tree7.jpg');
-}
-
-.tree8 {
-    background-image: url('/assets/img/prject2/tree8.jpg');
-}
-
-.tree9 {
-    background-image: url('/assets/img/prject2/tree9.jpg');
-}
-
-.tree10 {
-    background-image: url('/assets/img/prject2/tree10.jpg');
-}
-
-.tree11 {
-    background-image: url('/assets/img/prject2/tree11.jpg');
-}
-
-.tree12 {
-    background-image: url('/assets/img/prject2/tree12.jpg');
-}
-
-.tree13 {
-    background-image: url('/assets/img/prject2/tree13.jpg');
-}
-
-.tree14 {
-    background-image: url('/assets/img/prject2/tree14.jpg');
-}
-
-.tree15 {
-    background-image: url('/assets/img/prject2/tree15.jpg');
-}
-
-.tree16 {
-    background-image: url('/assets/img/prject2/tree16.jpg');
-}
-
-.tree17 {
-    background-image: url('/assets/img/prject2/tree17.jpg');
-}
-
-.tree18 {
-    background-image: url('/assets/img/prject2/tree18.jpg');
-}
-
-.tree19 {
-    background-image: url('/assets/img/prject2/tree19.jpg');
-}
-
-.tree20 {
-    background-image: url('/assets/img/prject2/tree20.jpg');
-}
-
-.tree21 {
-    background-image: url('/assets/img/prject2/tree21.jpg');
-}
-
-.tree22 {
-    background-image: url('/assets/img/prject2/tree22.jpg');
-}
-
-.tree23 {
-    background-image: url('/assets/img/prject2/tree23.jpg');
-}
-
-.tree24 {
-    background-image: url('/assets/img/prject2/tree24.jpg');
-}
-
-.tree25 {
-    background-image: url('/assets/img/prject2/tree25.jpg');
-}
-
-.tree26 {
-    background-image: url('/assets/img/prject2/tree26.jpg');
-}
-
-.tree27 {
-    background-image: url('/assets/img/prject2/tree27.jpg');
-}
-
-.tree28 {
-    background-image: url('/assets/img/prject2/tree28.jpg');
-}
-
-.tree29 {
-    background-image: url('/assets/img/prject2/tree29.jpg');
-}
-
-.tree30 {
-    background-image: url('/assets/img/prject2/tree30.jpg');
-}
-
-.tree31 {
-    background-image: url('/assets/img/prject2/tree31.jpg');
-}
-
-.tree32 {
-    background-image: url('/assets/img/prject2/tree32.jpg');
-}
-
-.tree33 {
-    background-image: url('/assets/img/prject2/tree33.jpg');
-}
-
-.tree34 {
-    background-image: url('/assets/img/prject2/tree34.jpg');
-}
-
-.tree35 {
-    background-image: url('/assets/img/prject2/tree35.jpg');
-}
-
-.tree36 {
-    background-image: url('/assets/img/prject2/tree36.jpg');
-}
-
-.tree37 {
-    background-image: url('/assets/img/prject2/tree37.jpg');
-}
-
-.tree38 {
-    background-image: url('/assets/img/prject2/tree38.jpg');
+    background-image: url('/assets/img/prject9/mol6.webp');
+    background-size: cover;
+    background-position: center;
 }
 
 /* guri */
