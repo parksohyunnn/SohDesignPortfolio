@@ -1,77 +1,3 @@
-/* guri */
-.guri-main {
-    width: 100%;
-    height: 50vmax;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    position: relative;
-    background-image: url('/assets/img/prject10/guri1.webp');
-    background-size: cover;
-    background-position: center;
-}
-
-.guriWrap {
-    display: flex;
-    width: 100%;
-    height: 40vmax;
-    /* 전체 높이를 50vh로 설정 */
-    margin-bottom: 10px;
-    gap: 10px;
-    border-radius: 10px;
-}
-
-.guri2 {
-    flex: 1;
-    background-image: url('/assets/img/prject10/guri2.webp');
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-}
-
-.guri3 {
-    flex: 1;
-    background-image: url('/assets/img/prject10/guri3.webp');
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-}
-
-.guri4 {
-    width: 100%;
-    height: 50vmax;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    background-image: url('/assets/img/prject10/guri4.webp');
-    background-size: cover;
-    background-position: center;
-}
-
-.guriWrap {
-    display: flex;
-    width: 100%;
-    height: 40vmax;
-    /* 전체 높이를 50vh로 설정 */
-    margin-bottom: 10px;
-    gap: 10px;
-    border-radius: 10px;
-}
-
-.guri5 {
-    flex: 1;
-    background-image: url('/assets/img/prject10/guri5.webp');
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-}
-
-.guri6 {
-    flex: 1;
-    background-image: url('/assets/img/prject10/guri6.webp');
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-}
-
 /* moliveTV */
 .mol1 {
     width: 100%;
@@ -975,4 +901,78 @@
 
 .tree38 {
     background-image: url('/assets/img/prject2/tree38.jpg');
+}
+
+/* guri */
+.guri-main {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/assets/img/prject10/guri1.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.guriWrap {
+    display: flex;
+    width: 100%;
+    height: 40vmax;
+    /* 전체 높이를 50vh로 설정 */
+    margin-bottom: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.guri2 {
+    flex: 1;
+    background-image: url('/assets/img/prject10/guri2.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.guri3 {
+    flex: 1;
+    background-image: url('/assets/img/prject10/guri3.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.guri4 {
+    width: 100%;
+    height: 50vmax;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-image: url('/assets/img/prject10/guri4.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.guriWrap {
+    display: flex;
+    width: 100%;
+    height: 40vmax;
+    /* 전체 높이를 50vh로 설정 */
+    margin-bottom: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.guri5 {
+    flex: 1;
+    background-image: url('/assets/img/prject10/guri5.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.guri6 {
+    flex: 1;
+    background-image: url('/assets/img/prject10/guri6.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
