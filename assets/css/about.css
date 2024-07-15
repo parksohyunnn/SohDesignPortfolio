@@ -287,7 +287,11 @@
     justify-content: center;
     align-items: center;
     gap: 60px;
+    transition: opacity 0.3s ease-in-out;
+}
 
+.personality:hover {
+    opacity: 0.8;
 }
 
 .mbti {
@@ -318,6 +322,11 @@
 .plan {
     background-color: #c463fda5;
     position: relative;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.plan:hover {
+    opacity: 0.8;
 }
 
 .planSvg {
@@ -344,6 +353,11 @@
 .design {
     background-color: #c463fdd7;
     position: relative;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.design:hover {
+    opacity: 0.8;
 }
 
 .designSvg {
@@ -370,62 +384,188 @@
 .develop {
     background-color: #C463FD;
     position: relative;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.develop:hover {
+    opacity: 0.8;
 }
 
 /* intro */
 .intro {
     width: 100%;
-    height: 30vmax;
-    margin-bottom: 1vmax;
-    border-radius: 1vmax;
-    background-color: #e7f73a;
+    height: 28vmax;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #F1FF52;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    transition: opacity 0.3s ease-in-out;
 }
 
-.hello {}
+.intro:hover {
+    opacity: 0.8;
+}
 
-.introWrap {}
+.helloWrap {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: left;
+    align-items: center;
+}
 
-.introTittle {}
+/* 소제목 앞 로고 */
+.hello-logoImg {
+    width: 1.5vmax;
+    height: auto;
+    margin-right: 10px;
 
-.introLogo {}
+}
 
-.introText {}
+.helloTitle {
+    color: var(--black100);
+    font-family: var(--fontC);
+    font-weight: 600;
+    font-size: 28px;
+    margin-right: 2vmax;
+    white-space: nowrap;
+    /* 텍스트를 한 줄로 유지 */
+    overflow: hidden;
+    /* 넘치는 텍스트를 숨김 */
+    text-overflow: ellipsis;
+    /* 넘치는 텍스트를 ...으로 표시 */
+}
+
+.helloText {
+    color: var(--black100);
+    font-family: var(--fontI);
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    /* 텍스트를 한 줄로 유지 */
+    overflow: hidden;
+    /* 넘치는 텍스트를 숨김 */
+    text-overflow: ellipsis;
+    /* 넘치는 텍스트를 ...으로 표시 */
+}
+
+.helloEnglish {
+    color: var(--black200);
+    font-family: var(--fontI);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.4;
+    white-space: nowrap;
+    /* 텍스트를 한 줄로 유지 */
+    overflow: hidden;
+    /* 넘치는 텍스트를 숨김 */
+    text-overflow: ellipsis;
+    /* 넘치는 텍스트를 ...으로 표시 */
+}
 
 /* contactWrap */
 .contactWrap {
     width: 100%;
-    height: 20vmax;
-    margin-bottom: 1vmax;
-    border-radius: 1vmax;
+    height: 15vmax;
+    margin-bottom: 10px;
+    border-radius: 10px;
     display: flex;
-    gap: 1vmax;
+    gap: 10px;
 }
 
-.contact,
-.follow,
-.blog {
-    width: 33.33%;
-    height: 100%;
-    margin-bottom: 1vmax;
-    border-radius: 1vmax;
-}
 
 .contact {
+    width: 40%;
+    height: 100%;
     background-color: #6DFF6C;
+    padding: 20px 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.contact:hover {
+    opacity: 0.8;
+}
+
+.conWrap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contectText {
+    font-family: var(--fontC);
+    font-size: 38px;
+    overflow: hidden;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: center;
+
 }
 
 .follow {
+    width: 30%;
+    height: 100%;
     background-color: #FC70FF;
+    padding: 0px 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.follow:hover {
+    opacity: 0.8;
 }
 
 .blog {
+    width: 30%;
+    height: 100%;
     background-color: #5AB0FF;
+    padding: 0px 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.blog:hover {
+    opacity: 0.8;
 }
 
 /* copyright */
 .copyright {
     width: 100%;
-    height: 12vmax;
+    height: 10vmax;
     background-color: var(--mainColor);
     border-radius: 1vmax;
+    font-family: var(--fontC);
+    font-size: 40px;
+    overflow: hidden;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.copyright:hover {
+    opacity: 0.8;
 }
