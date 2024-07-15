@@ -13,8 +13,8 @@
     height: 8vmax;
     margin-top: 11.2rem;
     background-color: var(--mainColor);
-    margin-bottom: 1vmax;
-    border-radius: 1vmax;
+    margin-bottom: 10px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,270 +46,257 @@
     vertical-align: top;
 }
 
-/* main-content */
-.main-content {
+/* ProfileWrap */
+.ProfileWrap {
     display: flex;
-    gap: 1vmax;
+    gap: 10px;
     width: 100%;
-    height: 45vmax;
+    height: 40vmax;
+    margin-bottom: 10px;
 }
 
+/* 메인 프로필 사진 */
 .profile-picture {
     width: 40%;
     background-color: var(--black100);
-    margin-bottom: 1vmax;
-    border-radius: 1vmax;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .profile-picture .profile {
     width: 80%;
+    height: auto;
 }
 
-/* education */
-.content-wrap {
+/* 프로필 오른쪽 텍스트 */
+.profile-text {
     width: 60%;
-    height: 45vmax;
-    margin-bottom: 1vmax;
-    border-radius: 1vmax;
+    height: 40vmax;
+
 }
 
+/* 프로필 학력 */
 .education-section {
     width: 100%;
-    height: 30%;
+    height: calc(15vmax - 10px);
+    /* 여백을 고려한 높이 조정 */
     background-color: var(--black200);
-    margin-bottom: 1vmax;
-    border-radius: 1vmax;
-    padding: 2vmax 7vmax;
-    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 0 120px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-}
-
-.eduwrap {
-    display: flex;
-    margin-bottom: 0.3vmax;
-}
-
-.eduTwrap {
-    display: flex;
-    align-content: center;
-}
-
-.edu-date {
-    font-size: 1.6vmax;
-    font-family: var(--fontN);
-    color: #c0a2d2;
-    font-weight: 400;
-    margin-right: 1vmax;
-}
-
-.edu-text {
-    font-size: 1.4vmax;
-    font-family: var(--fontN);
-    color: var(--white);
-    font-weight: 400;
-    margin-right: 2vmax;
-}
-
-.edu-smalltext {
-    font-size: 1.2vmax;
-    font-family: var(--fontN);
-    color: var(--white600);
-    font-weight: 400;
-    margin-top: 0.3vmax;
-}
-
-/* career */
-/* career-wrap */
-.career-wrap {
-    display: flex;
     flex-direction: column;
-    gap: 1vmax;
-    width: 100%;
-    margin-bottom: 1vmax;
-    border-radius: 1vmax;
-}
-
-.career-details-wrap {
-    display: flex;
-    flex-direction: column;
-    gap: 1vmax;
-    width: 100%;
-}
-
-.career-details {
-    width: 100%;
-    background-color: var(--black300);
-    border-radius: 1vmax;
-    padding: 5vmax 6vmax;
     box-sizing: border-box;
 }
 
-.carwrap {
+.eduWrap {
     display: flex;
+    margin-bottom: 25px;
+    justify-content: left;
     align-items: center;
-    margin-bottom: 2vmax;
 }
 
-.about-logotitle {
-    width: 2vmax;
+/* 소제목 앞 로고 */
+.about-logoImg {
+    width: 3%;
     height: auto;
     margin-right: 1vmax;
 }
 
-.skill-title {
+.aboutTitle {
     color: var(--mainColor);
     font-family: var(--fontC);
     font-weight: 600;
-    font-size: 2vmax;
+    font-size: 28px;
+    margin-right: 2vmax;
 }
 
-.carTwrap {
+/* 학력 */
+.prWrap {
     display: flex;
+    justify-content: left;
     align-items: center;
-    margin-bottom: 1vmax;
+    margin-bottom: 10px;
 }
 
-.car-date {
-    font-size: 1.6vmax;
+.prDate {
+    font-size: 20px;
     font-family: var(--fontN);
     color: #c0a2d2;
-    font-weight: 400;
+    font-weight: 700;
     margin-right: 1vmax;
+    white-space: nowrap;
+    /* 텍스트를 한 줄로 유지 */
+    overflow: hidden;
+    /* 넘치는 텍스트를 숨김 */
+    text-overflow: ellipsis;
+    /* 넘치는 텍스트를 ...으로 표시 */
 }
 
-.car-text {
-    font-size: 1.4vmax;
+.prText {
+    font-size: 22px;
     font-family: var(--fontN);
     color: var(--white);
     font-weight: 400;
     margin-right: 2vmax;
+    white-space: nowrap;
+    /* 텍스트를 한 줄로 유지 */
+    overflow: hidden;
+    /* 넘치는 텍스트를 숨김 */
+    text-overflow: ellipsis;
+    /* 넘치는 텍스트를 ...으로 표시 */
 }
 
-.car-smalltext {
-    font-size: 1.2vmax;
+.prSmalltext {
+    font-size: 18px;
     font-family: var(--fontN);
     color: var(--white600);
     font-weight: 400;
+    white-space: nowrap;
+    /* 텍스트를 한 줄로 유지 */
+    overflow: hidden;
+    /* 넘치는 텍스트를 숨김 */
+    text-overflow: ellipsis;
+    /* 넘치는 텍스트를 ...으로 표시 */
 }
 
-.career-tags {
+/* 프로필 경력 */
+.Career-section {
     width: 100%;
-    background-color: var(--black400);
-    border-radius: 1vmax;
+    height: calc(18.6vmax - 10px);
+    background-color: var(--black300);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 0 120px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 7vmax;
+    justify-content: center;
+    flex-direction: column;
     box-sizing: border-box;
 }
 
-.tag-text {
-    font-size: 1.6vmax;
-    font-family: var(--fontN);
-    color: var(--white);
-    font-weight: 500;
-    display: inline-block;
+/* 해시 태그 */
+.tag-section {
+    width: 100%;
+    height: 6.4vmax;
+    background-color: #444444;
+    border-radius: 10px;
+    padding: 0 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
-
 
 /* skill */
 .skill {
     width: 100%;
-    height: 29vmax;
-    margin-bottom: 1vmax;
-    border-radius: 1vmax;
-    display: flex;
-    gap: 1vmax;
-}
-
-/* Technology */
-.skill .skill-tec {
-    width: 50%;
-    height: inherit;
+    height: 20vmax;
+    margin-bottom: 10px;
+    border-radius: 10px;
     background-color: var(--black100);
-    border-radius: 1vmax;
-    padding: 6vmax 7vmax;
+    display: flex;
+    flex-direction: column;
+    padding: 0 140px;
+    justify-content: center;
+    flex-direction: column;
     box-sizing: border-box;
+
 }
 
+/* skills */
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* technology */
 .tecTwrap {
     display: flex;
     align-items: center;
 }
 
-.about-logotitle {
-    width: 2vmax;
-    height: auto;
-    margin-right: 1vmax;
-}
-
-.skill-title {
-    color: var(--mainColor);
-    font-family: var(--fontC);
-    font-weight: 600;
-    font-size: 2vmax;
-    margin-right: 2vmax;
-}
-
-.technology-text {
-    font-family: var(--fontP);
-    font-size: 1.3vmax;
-    font-weight: 400;
-    color: #c0a2d2;
-}
-
 .tecWrap {
     display: flex;
-    justify-content: space-between;
-}
-
-.skill-img {
-    width: 16%;
-    margin-top: 2.8vmax;
-}
-
-/* Design */
-.skill .skill-des {
-    width: 50%;
-    height: inherit;
-    background-color: var(--black100);
-    border-radius: 1vmax;
-    padding: 6vmax 7vmax;
-    box-sizing: border-box;
-}
-
-.design-text {
-    font-family: var(--fontP);
-    font-size: 1.3vmax;
-    font-weight: 400;
-    color: #c0a2d2;
+    gap: 25px;
 }
 
 .desWrap {
     display: flex;
-    justify-content: space-between;
+    gap: 25px;
+    justify-content: end;
 }
+
+.skill-img {
+    width: 16%;
+    margin-top: 20px;
+}
+
+/* skillText */
+.skillText {
+    display: flex;
+    margin-top: 10px;
+}
+
+.technology-text {
+    font-family: var(--fontP);
+    font-size: 18px;
+    font-weight: 400;
+    color: #c0a2d2;
+    width: 55%;
+
+}
+
+.design-text {
+    font-family: var(--fontP);
+    font-size: 18px;
+    font-weight: 400;
+    color: #c0a2d2;
+    width: 46%;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .skill-img {
+        width: 30%;
+        /* 화면이 작아지면 이미지 크기 조절 */
+    }
+}
+
 
 /* personal */
 .personal {
     width: 100%;
     height: 20vmax;
-    margin-bottom: 1vmax;
-    border-radius: 1vmax;
+    margin-bottom: 10px;
+    border-radius: 10px;
     display: flex;
-    gap: 1vmax;
+    gap: 10px;
 }
 
 .personality {
     width: 55%;
     height: 100%;
     background-color: var(--black200);
-    border-radius: 1vmax;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.mbti {
+    width: 35%;
+    margin-top: 30px;
+}
+
+.persona {
+    width: 35%;
 }
 
 .plan,
@@ -317,20 +304,72 @@
 .develop {
     width: 15%;
     height: 100%;
-    margin-bottom: 1vmax;
-    border-radius: 1vmax;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fontC);
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .plan {
     background-color: #c463fda5;
+    position: relative;
+}
+
+.planSvg {
+    position: absolute;
+    top: 41%;
+    left: 18%;
+    stroke-dasharray: 500;
+    /* 전체 길이 설정 */
+    stroke-dashoffset: 500;
+    /* 초기 오프셋 설정 */
+    animation: draw 2s linear infinite;
+}
+
+@keyframes draw {
+    from {
+        stroke-dashoffset: 500;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
 }
 
 .design {
     background-color: #c463fdd7;
+    position: relative;
+}
+
+.designSvg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    stroke-dasharray: 500;
+    /* 전체 길이 설정 */
+    stroke-dashoffset: 500;
+    /* 초기 오프셋 설정 */
+    animation: draw 2s linear infinite;
+}
+
+@keyframes draw {
+    from {
+        stroke-dashoffset: 500;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
 }
 
 .develop {
     background-color: #C463FD;
+    position: relative;
 }
 
 /* intro */
