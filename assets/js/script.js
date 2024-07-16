@@ -56,3 +56,30 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(image);
     });
 });
+
+//
+
+document.addEventListener('DOMContentLoaded', () => {
+    const observerOptions = {
+        root: null, // viewport
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    const observerCallback = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const rects = document.querySelectorAll('.rect');
+                rects.forEach((rect, index) => {
+                    setTimeout(() => {
+                        rect.classList.add('show');
+                    }, index * 100); // 100ms delay between each rect
+                });
+                observer.unobserve(entry.target); // Unobserve after animation
+            }
+        });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    observer.observe(document.querySelector('.anilo17'));
+});
