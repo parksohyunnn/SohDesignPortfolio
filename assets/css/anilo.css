@@ -1,0 +1,181 @@
+.anilo1 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.aniloImg1 {
+    width: 100%;
+    filter: brightness(0.9);
+}
+
+/* anilo1Wrap1 */
+.anilo1Wrap1 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.anilo2,
+.anilo3,
+.anilo4 {
+    width: 33.333%;
+
+}
+
+.aniloImg2,
+.aniloImg3,
+.aniloImg4 {
+    border-radius: 10px;
+    transition: filter 0.8s ease;
+    /* 어두워지는 효과의 전환을 부드럽게 만듦 */
+}
+
+/* 어두워지는 효과 */
+.aniloImg2:hover,
+.aniloImg3:hover,
+.aniloImg4:hover {
+    filter: brightness(0.5);
+}
+
+.anilo5 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+.anilo6 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    /* 자식 요소가 부모 요소의 경계를 넘지 않도록 설정 */
+}
+
+.aniloImg6 {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    /* 초기 투명도 설정 */
+    transition: opacity 5s ease;
+    /* 화면에 나올 때 서서히 나타나는 애니메이션 */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* anilo1Wrap2 */
+.anilo1Wrap2 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.anilo7,
+.anilo8 {
+    width: 50%;
+
+}
+
+.aniloImg7,
+.aniloImg8 {
+    border-radius: 10px;
+    transition: filter 0.8s ease;
+    /* 어두워지는 효과의 전환을 부드럽게 만듦 */
+}
+
+.anilo9 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+/* anilo1Wrap3 */
+.anilo1Wrap3 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.anilo10,
+.anilo11,
+.anilo12 {
+    width: 33.333%;
+
+}
+
+.aniloImg10,
+.aniloImg11,
+.aniloImg12 {
+    border-radius: 10px;
+}
+
+.anilo13 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.anilo14 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aniloImg14 {
+    width: 110%;
+}
+
+/* anilo1Wrap4 */
+.anilo1Wrap4 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.anilo15,
+.anilo16 {
+    width: 50%;
+
+}
+
+.aniloImg15,
+.aniloImg16 {
+    border-radius: 10px;
+}
+
+.anilo17,
+.anilo18,
+.anilo19,
+.anilo20,
+.anilo21,
+.anilo22 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}

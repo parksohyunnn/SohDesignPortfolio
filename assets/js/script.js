@@ -29,5 +29,30 @@ updateDateTime();
 // 1초마다 업데이트
 setInterval(updateDateTime, 1000);
 
+// 아닐로프로젝트
 
+// .anilo6
+document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('.aniloImg6');
 
+    const observerOptions = {
+        root: null, // 뷰포트를 기준으로 관찰
+        rootMargin: '0px',
+        threshold: 0.1 // 10%가 뷰포트에 들어오면 콜백 실행
+    };
+
+    const observerCallback = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                observer.unobserve(entry.target); // 한 번만 애니메이션을 실행하기 위해 관찰 해제
+            }
+        });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    images.forEach(image => {
+        observer.observe(image);
+    });
+});
