@@ -1,0 +1,51 @@
+.nicericeI_1,
+.nicericeI_8,
+.nicericeI_11,
+.nicericeI_17,
+.nicericeI_5 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.nicericeIwrap_1,
+.nicericeIwrap_5 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.nicericeImg2,
+.nicericeImg3,
+.nicericeImg4,
+.nicericeImg14,
+.nicericeImg15,
+.nicericeImg16 {
+    width: 33.333%;
+    border-radius: 10px;
+}
+
+.nicericeIwrap_2,
+.nicericeIwrap_4,
+.nicericeIwrap_3 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.nicericeImg6,
+.nicericeImg9,
+.nicericeImg13,
+.nicericeImg12,
+.nicericeImg10,
+.nicericeImg7 {
+    width: 50%;
+    border-radius: 10px;
+}
