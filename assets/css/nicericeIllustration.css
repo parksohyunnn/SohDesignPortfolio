@@ -2,6 +2,7 @@
 .nicericeI_8,
 .nicericeI_11,
 .nicericeI_17,
+.nicericeI_23,
 .nicericeI_20,
 .nicericeI_5 {
     width: 100%;
@@ -13,6 +14,7 @@
 .nicericeIwrap_1,
 .nicericeIwrap_2,
 .nicericeIwrap_8,
+.nicericeIwrap_11,
 .nicericeIwrap_5 {
     width: 100%;
     border-radius: 10px;
@@ -26,6 +28,9 @@
 .nicericeImg21-1,
 .nicericeImg21-2,
 .nicericeImg21-3,
+.nicericeImg24-1,
+.nicericeImg24-2,
+.nicericeImg24-3,
 .nicericeImg3,
 .nicericeImg4,
 .nicericeImg6,
@@ -40,6 +45,8 @@
 
 .nicericeIwrap_4,
 .nicericeIwrap_7,
+.nicericeIwrap_9,
+.nicericeIwrap_10,
 .nicericeIwrap_3 {
     width: 100%;
     border-radius: 10px;
@@ -53,6 +60,10 @@
 .nicericeImg13,
 .nicericeImg19-1,
 .nicericeImg19-2,
+.nicericeImg22-1,
+.nicericeImg22-2,
+.nicericeImg23-1,
+.nicericeImg23-2,
 .nicericeImg12,
 .nicericeImg10 {
     width: 50%;
