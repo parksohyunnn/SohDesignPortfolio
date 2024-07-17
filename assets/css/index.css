@@ -39,6 +39,8 @@
 
 .navline1 {
     position: relative;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .navline1::before {
@@ -56,15 +58,14 @@
 
 
 /* nav */
-#nav {
-    margin-bottom: 20px;
-}
+#nav {}
 
 .navUl {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 10px;
+    padding: 10px 20px;
+    /* padding: 10px 450px; */
     box-sizing: border-box;
 }
 
@@ -74,20 +75,20 @@
 
 .navLink {
     display: inline-block;
-    /* color: var(--mainColor); */
+    color: var(--mainColor);
     font-style: var(--fontC);
-    font-weight: 200;
+    font-weight: 300;
     font-size: 16px;
     transition: color 0.3s ease;
 }
 
 .navLink:hover {
-    color: var(--mainColor);
+    color: yellowgreen;
 }
 
 .navBracket {
     display: inline-block;
-    /* color: var(--mainColor); */
+    color: var(--mainColor);
     font-style: var(--fontP);
     font-weight: 100;
     font-size: 20px;
@@ -97,7 +98,7 @@
 .portfolio-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 8px;
     /* padding: 20px; */
     margin: 0 auto;
     box-sizing: border-box;
@@ -131,27 +132,27 @@
     display: block;
     transition: filter 0.2s;
     /* 호버 시 부드럽게 전환 */
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .portfolio-item:hover .indexImg {
-    filter: brightness(50%);
+    filter: brightness(90%);
 }
 
 .indexH3 {
     margin-top: 10px;
     color: var(--mainColor);
     font-family: var(--fontC);
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .indexP {
     color: #666;
     color: var(--black500);
     font-family: var(--fontP);
-    font-size: 15px;
-    margin-bottom: 30px;
+    font-size: 13px;
+    margin-bottom: 20px;
     margin-top: -3px;
 }
 
