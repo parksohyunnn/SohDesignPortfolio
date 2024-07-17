@@ -1,0 +1,174 @@
+#containerIndex {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/* header */
+#header {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.headerLogo {
+    width: 20%;
+    height: 10vh;
+}
+
+/* navline */
+.navline {
+    position: relative;
+    margin-top: 30px;
+}
+
+.navline::before {
+    content: '';
+    position: absolute;
+    top: -0.5px;
+    /* Adjust this value to position the shadow */
+    left: 0;
+    width: 100%;
+    height: 0.5px;
+    /* This value simulates a thinner border */
+    background-color: var(--mainColor);
+    box-shadow: 0 0 0.5px var(--mainColor);
+}
+
+.navline1 {
+    position: relative;
+}
+
+.navline1::before {
+    content: '';
+    position: absolute;
+    top: -0.5px;
+    /* Adjust this value to position the shadow */
+    left: 0;
+    width: 100%;
+    height: 0.5px;
+    /* This value simulates a thinner border */
+    background-color: var(--mainColor);
+    box-shadow: 0 0 0.5px var(--mainColor);
+}
+
+
+/* nav */
+#nav {
+    margin-bottom: 20px;
+}
+
+.navUl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.navLi {
+    display: inline-block;
+}
+
+.navLink {
+    display: inline-block;
+    /* color: var(--mainColor); */
+    font-style: var(--fontC);
+    font-weight: 200;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: var(--mainColor);
+}
+
+.navBracket {
+    display: inline-block;
+    /* color: var(--mainColor); */
+    font-style: var(--fontP);
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/* 포트폴리오 리스트 */
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    /* padding: 20px; */
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.portfolio-item {
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolio-item.odd {
+    grid-row: span 1;
+}
+
+.portfolio-item.even {
+    grid-row: span 2;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-2px);
+
+}
+
+.indexImg {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: filter 0.2s;
+    /* 호버 시 부드럽게 전환 */
+    border-radius: 10px;
+}
+
+.portfolio-item:hover .indexImg {
+    filter: brightness(50%);
+}
+
+.indexH3 {
+    margin-top: 10px;
+    color: var(--mainColor);
+    font-family: var(--fontC);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.indexP {
+    color: #666;
+    color: var(--black500);
+    font-family: var(--fontP);
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: -3px;
+}
+
+.indexLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .portfolio-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+}
