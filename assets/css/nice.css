@@ -1,0 +1,53 @@
+.nice1,
+.nice4,
+.nice9,
+.nice5 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.niceWrap1,
+.niceWrap3,
+.niceWrap2 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.nice2,
+.nice3 {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.nice10 {
+    width: 64%;
+    border-radius: 10px;
+}
+
+.nice11 {
+    width: 36%;
+    border-radius: 10px;
+}
+
+.niceImg2,
+.niceImg6,
+.niceImg7,
+.niceImg9,
+.niceImg10,
+.niceImg11,
+.niceImg8,
+.niceImg3 {
+    border-radius: 10px;
+}
+
+.nice6,
+.nice7,
+.nice8 {
+    width: 33.333%;
+    border-radius: 10px;
+}
