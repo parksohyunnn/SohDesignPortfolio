@@ -1,11 +1,12 @@
 .nice1,
 .nice4,
 .nice9,
+.nice12,
+.nice13,
 .nice5 {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
-    overflow: hidden;
 }
 
 .niceWrap1,
@@ -25,7 +26,7 @@
 }
 
 .nice10 {
-    width: 64%;
+    width: 66%;
     border-radius: 10px;
 }
 
@@ -34,12 +35,27 @@
     border-radius: 10px;
 }
 
+.nice14 {
+    width: 100%;
+    margin-bottom: 10px;
+    bottom: 10px;
+}
+
+.niceImg14 {
+    border-radius: 10px;
+}
+
+.niceImg1,
+.niceImg4,
+.niceImg5,
 .niceImg2,
 .niceImg6,
 .niceImg7,
 .niceImg9,
 .niceImg10,
 .niceImg11,
+.niceImg12,
+.niceImg13,
 .niceImg8,
 .niceImg3 {
     border-radius: 10px;

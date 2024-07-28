@@ -192,19 +192,21 @@
 }
 
 /* skill */
-.skill {
+/* .skill {
     width: 100%;
-    height: 20vmax;
     margin-bottom: 10px;
     border-radius: 10px;
-    background-color: var(--black100);
+    background-color: #000;
     display: flex;
-    flex-direction: column;
-    padding: 0 140px;
     justify-content: center;
-    flex-direction: column;
-    box-sizing: border-box;
+    align-items: center;
 
+} */
+
+/* skills-img */
+.skills-img {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 /* skills */
@@ -257,14 +259,6 @@
     font-weight: 400;
     color: #c0a2d2;
     width: 46%;
-}
-
-/* 반응형 디자인 */
-@media (max-width: 768px) {
-    .skill-img {
-        width: 30%;
-        /* 화면이 작아지면 이미지 크기 조절 */
-    }
 }
 
 
@@ -393,7 +387,7 @@
 
 /* intro */
 .intro {
-    width: 100%;
+    /* width: 100%;
     height: 28vmax;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -402,8 +396,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 100px;
+    padding-left: 100px; */
     transition: opacity 0.3s ease-in-out;
+}
+
+.introImg {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .intro:hover {
@@ -471,13 +470,26 @@
 /* contactWrap */
 .contactWrap {
     width: 100%;
-    height: 15vmax;
     margin-bottom: 10px;
-    border-radius: 10px;
     display: flex;
     gap: 10px;
+    box-sizing: border-box;
 }
 
+.A3 {
+    width: 46%;
+    height: 100%;
+}
+
+.A4 {
+    width: 27.5%;
+    height: 100%;
+}
+
+.A5 {
+    width: 27.5%;
+    height: 100%;
+}
 
 .contact {
     width: 40%;
@@ -550,20 +562,12 @@
 /* copyright */
 .copyright {
     width: 100%;
-    height: 10vmax;
-    background-color: var(--mainColor);
-    border-radius: 1vmax;
-    font-family: var(--fontC);
-    font-size: 40px;
-    overflow: hidden;
-    font-weight: 800;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 30px 60px;
-    box-sizing: border-box;
+    height: 30vh;
     transition: opacity 0.3s ease-in-out;
+}
+
+.a6 {
+    width: 100%;
 }
 
 .copyright:hover {

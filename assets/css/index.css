@@ -6,67 +6,25 @@
 /* header */
 #header {
     width: 100%;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 30px;
-}
-
-.headerLogo {
-    width: 20%;
-    height: 10vh;
-}
-
-/* navline */
-.navline {
     position: relative;
-    margin-top: 30px;
-}
-
-.navline::before {
-    content: '';
-    position: absolute;
-    top: -0.5px;
-    /* Adjust this value to position the shadow */
-    left: 0;
-    width: 100%;
-    height: 0.5px;
-    /* This value simulates a thinner border */
-    background-color: var(--mainColor);
-    box-shadow: 0 0 0.5px var(--mainColor);
-}
-
-.navline1 {
-    position: relative;
-    margin-top: 0px;
-    margin-bottom: 30px;
-}
-
-.navline1::before {
-    content: '';
-    position: absolute;
-    top: -0.5px;
-    /* Adjust this value to position the shadow */
-    left: 0;
-    width: 100%;
-    height: 0.5px;
-    /* This value simulates a thinner border */
-    background-color: var(--mainColor);
-    box-shadow: 0 0 0.5px var(--mainColor);
 }
 
 
 /* nav */
-#nav {}
+#nav {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
 
 .navUl {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
-    /* padding: 10px 450px; */
-    box-sizing: border-box;
+    margin-top: -6%;
+    margin-bottom: 5%;
+    /* padding: 10px 20px;
+    box-sizing: border-box; */
 }
 
 .navLi {
@@ -75,23 +33,22 @@
 
 .navLink {
     display: inline-block;
-    color: var(--mainColor);
-    font-style: var(--fontC);
-    font-weight: 300;
-    font-size: 16px;
+    font-family: var(--fontP);
+    font-weight: 800;
+    font-size: 1.4vw;
+    letter-spacing: -0.8px;
     transition: color 0.3s ease;
 }
 
 .navLink:hover {
-    color: yellowgreen;
+    color: var(--mainColor);
 }
 
 .navBracket {
     display: inline-block;
-    color: var(--mainColor);
     font-style: var(--fontP);
-    font-weight: 100;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 1.2vw;
 }
 
 /* 포트폴리오 리스트 */

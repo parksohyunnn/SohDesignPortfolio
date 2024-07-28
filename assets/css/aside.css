@@ -104,14 +104,14 @@ input:checked+.slider:before {
     font-family: var(--fontP);
     font-size: 15px;
     font-weight: 300;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     color: var(--black500);
 }
 
 .time {
     font-family: var(--fontC);
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 700;
     margin-bottom: 30px;
 }
 
@@ -196,6 +196,7 @@ body.dark-mode .aside__prject .as__link .pr__wrap .pr__Twrap .pr__text {
     background: var(--bgWhite);
     border-radius: 8px;
     margin-bottom: 10px;
+    margin-top: 28px;
 }
 
 .aside__info:hover {

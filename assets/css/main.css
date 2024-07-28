@@ -10,7 +10,7 @@
     /* main 내에서 세로 스크롤 가능 */
     overflow-x: hidden;
     /* 가로 스크롤바 숨기기 */
-    padding: 10px 10px 10px 0px;
+    padding: 10px 10px 20px 0px;
     /* main 내부 패딩 추가 */
     box-sizing: border-box;
     /* padding 포함한 크기 계산 */
@@ -20,6 +20,8 @@
     display: none;
     /* 웹킷 브라우저에서 스크롤바 숨기기 */
 }
+
+#project {}
 
 .main__content {
     width: 100%;
