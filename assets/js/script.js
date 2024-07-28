@@ -1,7 +1,7 @@
 // aside 다크모드 전환
-document.getElementById('mode-toggle').addEventListener('change', function () {
-    document.body.classList.toggle('dark-mode', this.checked);
-});
+// document.getElementById('mode-toggle').addEventListener('change', function () {
+//     document.body.classList.toggle('dark-mode', this.checked);
+// });
 
 //aside 날짜 및 시간 설정
 function updateDateTime() {
