@@ -1,0 +1,125 @@
+.n1 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+/* 이미지 두개 5:5 */
+/* inje1Wrap1 */
+.n1lWrap1,
+.n1lWrap6,
+.n1lWrap3 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.n2,
+.n8-2,
+.n14-2,
+.n14-1,
+.n8-1,
+.n3 {
+    width: 50%;
+
+}
+
+.nImg2,
+.nImg8-2,
+.nImg14-2,
+.nImg14-1,
+.nImg8-1,
+.nImg3 {
+    border-radius: 10px;
+}
+
+/* 이미지 한개 */
+.n4,
+.n11,
+.n13,
+.n7,
+.n9,
+.n6 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+/* 이미지 두개  3:7*/
+/* inje1Wrap2 */
+.n1lWrap2 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.n5-1 {
+    width: 58%;
+
+}
+
+.n5-2 {
+    width: 42%;
+
+}
+
+.nImg5-1,
+.nImg5-2 {
+    border-radius: 10px;
+}
+
+/* 이미지 두개  3:7*/
+/* inje1Wrap4 */
+.n1lWrap4 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.n10-1 {
+    width: 60%;
+
+}
+
+.n10-2 {
+    width: 40%;
+}
+
+.nImg10-1,
+.nImg10-2 {
+    border-radius: 10px;
+}
+
+/* 이미지 두개  3:7*/
+/* inje1Wrap4 */
+.n1lWrap5 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.n12-1 {
+    width: 60%;
+
+}
+
+.n12-2 {
+    width: 40%;
+}
+
+.nImg12-1,
+.nImg12-2 {
+    border-radius: 10px;
+}
