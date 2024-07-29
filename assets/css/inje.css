@@ -1,0 +1,219 @@
+.inje1 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+/* 이미지 두개 5:5 */
+/* inje1Wrap1 */
+.inje1Wrap1 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.inje2,
+.inje3 {
+    width: 50%;
+
+}
+
+.injeImg2,
+.injeImg3 {
+    border-radius: 10px;
+}
+
+/* 이미지 한개 */
+.inje4,
+.inje6,
+.inje10,
+.inje18,
+.inje19,
+.inje20,
+.inje15,
+.inje16,
+.inje12,
+.inje5 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+/* 이미지 두개  3:7*/
+/* inje1Wrap2 */
+.inje1Wrap2 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.inje7-1 {
+    width: 30%;
+
+}
+
+.inje7-2 {
+    width: 70.8%;
+
+}
+
+.injeImg7-1,
+.injeImg7-2 {
+    border-radius: 10px;
+}
+
+
+/* 이미지 두개 5:5 */
+/* inje1Wrap3 */
+.inje1Wrap3 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.inje8-1,
+.inje8-2 {
+    width: 50%;
+
+}
+
+.injeImg8-1,
+.injeImg8-2 {
+    border-radius: 10px;
+}
+
+/* 이미지 3개 */
+/* inje1Wrap4 */
+.inje1Wrap4 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.inje9-1,
+.inje9-2,
+.inje9-3 {
+    width: 33.333%;
+
+}
+
+.injeImg9-1,
+.injeImg9-2,
+.injeImg9-3 {
+    border-radius: 10px;
+    transition: filter 0.8s ease;
+    /* 어두워지는 효과의 전환을 부드럽게 만듦 */
+}
+
+
+/* 어두워지는 효과 */
+.injeImg9-1:hover,
+.injeImg9-2:hover,
+.injeImg9-3:hover {
+    filter: brightness(0.8);
+}
+
+/* 이미지 3개 */
+/* inje1Wrap5 */
+.inje1Wrap5 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.inje11-1,
+.inje11-2,
+.inje11-3 {
+    width: 33.333%;
+
+}
+
+.injeImg11-1,
+.injeImg11-2,
+.injeImg11-3 {
+    border-radius: 10px;
+}
+
+
+/* 이미지 두개  3:7*/
+/* inje1Wrap6 */
+.inje1Wrap6 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.inje13-1 {
+    width: 37.45%;
+
+}
+
+.inje13-2 {
+    width: 63%;
+
+}
+
+.injeImg13-1,
+.injeImg13-2 {
+    border-radius: 10px;
+}
+
+
+/* 이미지 3개 */
+/* inje1Wrap7 */
+.inje1Wrap7 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.inje14-1,
+.inje14-2,
+.inje14-3 {
+    width: 33.333%;
+
+}
+
+.injeImg14-1,
+.injeImg14-2,
+.injeImg14-3 {
+    border-radius: 10px;
+}
+
+
+/* 이미지 두개 5:5 */
+/* inje1Wrap7 */
+.inje1Wrap7 {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.inje17-1,
+.inje17-2 {
+    width: 50%;
+
+}
+
+.injeImg17-1,
+.injeImg17-2 {
+    border-radius: 10px;
+}
