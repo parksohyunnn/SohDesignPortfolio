@@ -2,7 +2,8 @@
     margin-left: 330px;
     /* aside의 너비만큼 왼쪽 여백 추가 */
     width: calc(100% - 330px);
-    height: 110vh;
+    height: 100vh;
+    /* 뷰포트 높이에 맞추기 */
     position: fixed;
     top: 0;
     right: 0;
@@ -10,8 +11,8 @@
     /* main 내에서 세로 스크롤 가능 */
     overflow-x: hidden;
     /* 가로 스크롤바 숨기기 */
-    padding: 10px 10px 20px 0px;
-    /* main 내부 패딩 추가 */
+    padding: 10px 10px 0px 0px;
+    /* 패딩 바텀 값을 0으로 설정 */
     box-sizing: border-box;
     /* padding 포함한 크기 계산 */
 }
@@ -21,7 +22,10 @@
     /* 웹킷 브라우저에서 스크롤바 숨기기 */
 }
 
-#project {}
+#project {
+    padding-bottom: 4px;
+    /* 내부 컨테이너에 패딩 바텀 추가 */
+}
 
 .main__content {
     width: 100%;

@@ -12,6 +12,7 @@
 .way15,
 .way13,
 .way16,
+.way19,
 .way17,
 .way18,
 .way14,
@@ -36,21 +37,9 @@
 .way2,
 .way10,
 .way11,
+.way7,
+.way8,
 .way3 {
     width: 50%;
 
-}
-
-.way7 {
-    width: 48%;
-
-}
-
-.way8 {
-    width: 58%;
-
-}
-
-.wayImg8 {
-    width: 103%;
 }
